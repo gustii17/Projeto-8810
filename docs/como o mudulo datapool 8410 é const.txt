@@ -1,0 +1,85 @@
+como o mudulo datapool 8810 é construído
+How the 8810 datapool module is constructed
+module 8810 datasheet
+Module 8810 Reverse Engineering
+Building a low-cost 8810 datapool
+
+dos vídeos né
+vide 1)
+modulo 8410
+
+- pelo visto tem um transformador
+- 12 e -12V para amp op
+- tem 8 chaves com debounce pelo ci 74ls00
+- cuidado com debounce
+- clock interno, 555?
+- divisor de décadas 74ls90
+- ponta de prova digital - comparador de janela(ln393 duplo)
+- entrada, fusível e entrada c
+- verificar as tomadas do laboratórios
+- carcaça parafusada
+- dentro parece ter um transformador que pega a entrada da tomada e transforma nas tensões 12, 5, gnd, -12
+- O traafo interno pega da tomada e transforma para 19, -19, 12
+- painek é uma placa grande de circuito impresso
+- diodo de 3A
+- capacitor grande
+- transistor LM7812 e LM7912
+- transistor na placa BD136, 2955, 7805
+- nos dissipadores de tensão tem um 7805 e um em palarelo para dar mais corrente
+- e ai as saídas são só as tensões gnd, 5V, 12v, -12v, 
+- a ponta lógica usa 4 transistores hmmm
+- chave para ligar
+- Cis dos leds, 74ls74
+
+
+7805
+serve para converter uma tensão de entrada mais alta em uma saída fixa e estável de 5V
+
+2955
+comutação (chaveamento) e amplificação de sinais elétricos
+PNP
+
+BD136
+TBJ, n sei ao certo, parede de chaveamento ou amplificação
+
+
+LM7912
+ Ele é projetado para receber uma tensão negativa de entrada mais alta e convertê-la em uma saída estável de -12V.
+
+LM7812
+Sua principal função é receber uma tensão de entrada mais alta (e instável) e fornecer uma saída constante de +12V DC.
+
+
+Trafo
+ é um dispositivo elétrico estático que altera os níveis de tensão e corrente alternada (CA) em um circuito, baseando-se no princípio da indução eletromagnética
+
+lm 393
+compara, se a entrada estiver em um intervalo da alto, se estiver fora, da baixo
+precisa de pull up
+
+
+
+ci 74ls90
+divide a frequência por 10.
+um contador que quando chega em 10 renicia
+
+
+co 74ls00
+que contém quatro portas NAND de duas entradas.
+usado em configurações de hardware para "limpar" o sinal de chaves mecânicas (debounce)
+-5V
+o debounce é necessário para limitar o ruido, principalmente emaplicações de cloc
+
+
+ci 74ls50
+ é um circuito integrado da família lógica TTL (Transistor-Transistor Logic), mais especificamente um "Dual 2-wide 2-input AND-OR-INVERT Gate
+usado em configurações de hardware para "limpar" o sinal de chaves mecânicas (debounce)
+-5V
+o debounce é necessário para limitar o ruido, principalmente emaplicações de cloc
+
+família 74ls
+tecnologia de baixa potencia
+
+74ls74
+ que contém dois Flip-Flops tipo D com borda de subid
+

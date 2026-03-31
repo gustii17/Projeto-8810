@@ -1,0 +1,66 @@
+modulo 8810
+tive acesso a um já desmontado, vou verificar as peças nele e comparar com o 8410 para ver se bate, so n posso desregular qualquer coisa aquoi
+
+transformador e fontes
+parece ser diferente dependendo da versão, vou analisar o mais antigo
+bom, de inicio tem a tomada, ligada a um fusível, ligado a uma chave  ligado a um regulador que diz se é 220 ou 110 V. isso tudo ligado ao transformador 
+o transformador parece ser bem igual ao 8410, a única coisa que vi é que pos transistores de 5v parecem ser diferentes
+mas todos são ligados ao pinos 12, -12, 5v, gnd e 60HZ
+coisa interessante é que mesmo que seja 15v ele é ligado a 12 no transformador ent na placa de cima deve ter algum bust de tensão. não não, parece que é 12v mesmo, estranho depois ver no ociloscopio um funcioando
+outra coisa interessante é que a placa de cima, por mais que tenha a conexão pro 60 Hz, ele não usa. m esta conectado.
+outra coisa é a facilidade de encaixar o modulo, penso que seria interessante no futuro eu fazer cada parte separada para poder ser substituível.
+
+analise as placas dos módulos diferentes são iguais?
+acredito veemente que sejam iguais, todas as posições parecem as mesmas.
+os capacitores e diodos ficam em baixo, interessante, por que?
+
+chaves
+todas as chaves tem um mesmo padrão a tras n tem nada conectado, na frente parece que esta se ligando ao 
+o
+devem ser ligados ao tansistor ttl, cmos
+
+sinais
+também tem o comparador de tensã lm 339
+so achei estranho que n vi nenhum inversor
+e tem um negocinho com muitas persa que eu n sei dizer ao certo o que é
+acho que nossa fpga inverte por nos
+sera que o debounse é feito pelo comparador?
+
+
+leds
+tbm temos comparadores, não consigo extrair muit
+
+
+pntas de prova
+sem muito a mais
+mas deve ser ligada a um comparador
+
+
+
+
+protoboard
+2 protoboards normais tem coisa por debaixo delas ent n se preocupar. so deixar o espaço
+
+clock
+na fpga
+
+ttl/cmos
+não consegui identificar muito, mas planejo tirar a chavem
+em mbaixo tem uma chave que liga os jumpers para se conectar
+
+
+display
+controlado pela fpga, provavelmente a ponteira da na fpga.
+
+
+medidas
+
+
+outros
+tem um plano de terra
+parece que ele so tem CI comparador
+tem potenciometoos ajustaveis
+
+
+
+
