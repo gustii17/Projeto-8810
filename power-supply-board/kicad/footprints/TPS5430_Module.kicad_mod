@@ -1,0 +1,110 @@
+(footprint "TPS5430_Module"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "1f160ca6-fe65-4109-8348-419ae80d0d9d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "TPS5430_Module"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "7b3618cf-558a-4e5d-babd-240e6fd5512d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d038ee89-315a-4a61-a779-7b62e3829721")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a92b42c8-cc7f-4389-8c8d-ee25113e9621")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -27.5 -27.5)
+		(end 27.5 27.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "0df2833c-e162-4960-88e1-09e3abed5cc6")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "8745b81d-5db3-42d8-869f-00d60d4cde50")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -21.2 -21.8)
+		(size 5 5)
+		(drill 3)
+		(layers "*.Cu" "*.Mask")
+		(uuid "487b6722-badc-4d9d-84f6-e0ed1d970706")
+	)
+	(pad "" np_thru_hole circle
+		(at -21.2 21.8)
+		(size 5 5)
+		(drill 3)
+		(layers "*.Cu" "*.Mask")
+		(uuid "159d23e3-9021-4c16-81dd-f85318ea65dd")
+	)
+	(pad "" np_thru_hole circle
+		(at 20.55 -21.8)
+		(size 5 5)
+		(drill 3)
+		(layers "*.Cu" "*.Mask")
+		(uuid "ecc530d1-f56d-4286-bd87-83cee0173135")
+	)
+	(pad "" np_thru_hole circle
+		(at 20.55 21.8)
+		(size 5 5)
+		(drill 3)
+		(layers "*.Cu" "*.Mask")
+		(uuid "5534fe63-c230-4398-b920-244c0a73d734")
+	)
+	(embedded_fonts no)
+)
