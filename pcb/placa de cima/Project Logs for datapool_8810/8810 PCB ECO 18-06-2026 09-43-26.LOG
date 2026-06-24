@@ -1,0 +1,4 @@
+Added Pin To Net: NetName=NetLED5_2 Pin=LED5-2
+Added Pin To Net: NetName=NetLED5_2 Pin=lm2-1
+Added Net: Name=NetLED5_2
+Added Member To Class: ClassName=8810 Member=Component C? EEU-FM1H101BJ
