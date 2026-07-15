@@ -1,0 +1,11 @@
+ A disciplina de Eletrônica Digital é um pilar formador na matriz curricular dos cursos do departamento de teleinformática(DETI). Nesse contexto, a disciplina contempla atividades práticas realizadas com o auxilio do módulo didático Datapool 8810. Entretanto, muitos desses módulos são antigos e estão desgastados, resultando em muitos falhas durante as práticas, o que dificulta a execução dos testes e desmotiva estudantes e professores. Esse problema é agravado pelos altos custos de substituição desses modulo.
+
+ Diante desse cenário, evidencia-se a necessidade de revitalizar os equipamentos dos laboratórios por meio de soluções economicamente acessíveis para a universidade. Em especial, destaca-se o Datapool 8810, por ser o primeiro contato dos alunos com os conceitos de eletrônica. Assim, esse trabalho propõem o desenvolvimento de um módulo didático próprio e de baixo custo que substituía os danificados no laboratório. 
+
+Então, com base na análise dos módulos antigos, em pesquisas bibliográficas e em conversas com os técnicos responsáveis pelos equipamentos no DETI, foi projetado um novo circuito usando Arduino e circuitos integrados para compor as funcionalidades do módulo original. Depois, foi desenvolvida uma placa de circuito impresso, além de uma estrutura em impressão 3D para a montagem física do equipamento. 
+
+Até o momento, está sendo desenvolvido um protótipo funcional. O projeto segue em testes, os quais indicam que o equipamento é capaz de reproduzir as funcionalidades propostas. Após a montagem física, o protótipo seguirá para as etapas de avaliação e aperfeiçoamento, apresentando potencial de contribuir para o aprendizado dos estudantes na disciplina de Eletronica Digital. 
+
+Por fim, o projeto apresenta perspectivas promissoras para a revitalizar os equipamentos do laboratório por meio dos próprios alunos da Universidade Federal do Ceará. Além disso, a proposta também demonstra possibilidade de expansão para demais departamentos ou universidades com disciplinas correlatas.
+
+ 

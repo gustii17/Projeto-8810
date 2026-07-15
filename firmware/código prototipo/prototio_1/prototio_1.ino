@@ -20,8 +20,8 @@ int f_stat;
 
 
 long leitura; // cria a variável tipo long
-#define freq_l 18
-#define t 300000
+#define freq_l 2
+#define t 100000
 #define limite 40
 
 //-------------------------------------------
@@ -88,6 +88,7 @@ void setup() {
   pinMode(pin_Low, INPUT_PULLUP); 
   pinMode(pin_High, INPUT_PULLUP); 
   pinMode(pin_F, INPUT_PULLUP); 
+  pinMode(freq_l, INPUT_PULLUP); 
  
   //BCD
   pinMode(pin_BCD[0], OUTPUT);
@@ -142,12 +143,13 @@ void setup() {
 void loop() {
     int pulse = (pulseIn(freq_l, HIGH, t))*2;
   leitura = (1000000 / pulse); 
+  
   if(leitura >= limite){
     digito = C;
   }
   else{
-    high_stat = digitalRead(pin_Low);
-    low_stat = digitalRead(pin_High);
+    high_stat = digitalRead(pin_High);
+    low_stat = digitalRead(pin_Low);
     f_stat = digitalRead(pin_F);
 
     if(high_stat == 1){

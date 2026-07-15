@@ -1,1 +1,7 @@
-Record=TopLevelDocument|FileName=8810.SchDoc|SheetNumber=1
+Record=TopLevelDocument|FileName=8810.SchDoc|SheetNumber=7
+Record=NoMainPathDocument|SourceDocument=8810.SchDoc|FileName=alimentacao.SchDoc|SheetNumber=1
+Record=NoMainPathDocument|SourceDocument=8810.SchDoc|FileName=chaves.SchDoc|SheetNumber=4
+Record=NoMainPathDocument|SourceDocument=8810.SchDoc|FileName=clock.SchDoc|SheetNumber=5
+Record=NoMainPathDocument|SourceDocument=8810.SchDoc|FileName=leds.SchDoc|SheetNumber=3
+Record=NoMainPathDocument|SourceDocument=8810.SchDoc|FileName=probe.SchDoc|SheetNumber=6
+Record=NoMainPathDocument|SourceDocument=8810.SchDoc|FileName=protoboard.SchDoc|SheetNumber=2
