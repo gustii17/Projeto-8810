@@ -7,7 +7,7 @@
 		(at 0 -0.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "dca465f2-9c7e-4c2c-9faa-0464d32a73f0")
+		(uuid "4afb0fd2-7475-4c10-b7b0-9fb803827991")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "4621f9c0-1be3-42f0-8de6-6e43abc2a07f")
+		(uuid "6a59b086-8326-4cda-b2fd-bc73ece7846b")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "7b03ad72-98f7-43e8-a264-169e49dd66a4")
+		(uuid "5303717f-72df-4012-8eeb-bf498b0ffa29")
 		(effects
 			(font
 				(size 1 1)
@@ -45,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "c858769b-9740-4d8e-a17e-c6fd3f0a17f7")
+		(uuid "c24b10ee-eb37-4c0b-84b7-0745f3c1a8fc")
 		(effects
 			(font
 				(size 1 1)
@@ -64,13 +64,13 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "69e17564-86b3-454b-9fb4-08b89325cc44")
+		(uuid "5a27503b-05cb-4c27-9616-7ee7fbfe0af5")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 2.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "4df951b2-5207-4708-87f2-7f627194d298")
+		(uuid "7403b3aa-85d9-4c7e-96b4-697cf796ba7e")
 		(effects
 			(font
 				(size 1 1)
@@ -83,28 +83,58 @@
 		(size 5 5)
 		(drill 3)
 		(layers "*.Cu" "*.Mask")
-		(uuid "c2a097b5-afe0-4db7-8742-c359a710c1c5")
+		(uuid "90a3dd17-5f07-4d4f-842a-0a4d2fe4903b")
 	)
 	(pad "" np_thru_hole circle
 		(at -21.2 21.8)
 		(size 5 5)
 		(drill 3)
 		(layers "*.Cu" "*.Mask")
-		(uuid "f3099f99-a65c-4f4b-b736-9ab17894c516")
+		(uuid "1dec7571-ccd3-4080-bbba-9eab55057754")
 	)
 	(pad "" np_thru_hole circle
 		(at 20.55 -21.8)
 		(size 5 5)
 		(drill 3)
 		(layers "*.Cu" "*.Mask")
-		(uuid "ec8bfef4-065c-4b7b-bc01-305da0005747")
+		(uuid "b439f7c0-3837-43df-b3e4-1429efe683cf")
 	)
 	(pad "" np_thru_hole circle
 		(at 20.55 21.8)
 		(size 5 5)
 		(drill 3)
 		(layers "*.Cu" "*.Mask")
-		(uuid "acfd012f-f19b-4b12-81a5-2c63d29d9933")
+		(uuid "0673cd26-2408-46e2-a74c-8d4d9b401cff")
+	)
+	(zone
+		(layers "F.Cu" "B.Cu" "F.SilkS")
+		(uuid "4dbc2e32-917c-4a63-8411-b1f5bb9ea74d")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
+		)
+		(polygon
+			(pts
+				(xy 25 -25) (xy -25 -25) (xy -25 25) (xy 25 25)
+			)
+		)
 	)
 	(embedded_fonts no)
 )
