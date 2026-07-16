@@ -1,0 +1,4 @@
+Added Pin To Net: NetName=Netlm2_6 Pin=lm2-6
+Added Pin To Net: NetName=Netlm2_6 Pin=lm2-7
+Added Net: Name=Netlm2_6
+Added Member To Class: ClassName=8810 Member=Component C? EEU-FM1H101BJ

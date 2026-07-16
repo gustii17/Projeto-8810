@@ -1,0 +1,17 @@
+**Introdução**
+
+A disciplina de Eletrônica Digital é um componente fundamental na formação dos estudantes dos cursos do Departamento de Teleinformática da Universidade Federal do Ceará. As atividades práticas são realizadas com o auxílio do módulo didático Datapool 8810, utilizado para a aplicação dos conceitos estudados em sala de aula. Entretanto, parte desses equipamentos apresenta desgaste e falhas de funcionamento, dificultando a realização dos experimentos. Além disso, os custos de manutenção ou substituição são elevados, evidenciando a necessidade de uma alternativa de baixo custo e de fácil manutenção.
+
+**Objetivo**
+
+Desenvolver um módulo didático próprio e de baixo custo, capaz de reproduzir as principais funcionalidades do Datapool 8810, incluindo chaves, indicadores LED, protoboard, gerador de clock, ponta de prova e fontes de alimentação
+
+**Metodologia**
+Trata-se de uma pesquisa aplicada, exploratória e descritiva, realizada desde março de 2026. Inicialmente, foram analisados os módulos antigos, consultadas referências bibliográficas e realizadas reuniões com os técnicos responsáveis pelos equipamentos. Em seguida, foi projetado um circuito utilizando Arduino Nano, um display de 7 segmentos e circuitos integrados(CIs) como LM339, 74HC14. Com isso, foram desenvolvidos o esquemático, a placa de circuito impresso (PCB) e uma estrutura para fabricação por impressão 3D. Os circuitos foram avaliados por meio da execução de práticas normalmente realizadas na disciplina, utilizando multímetro e osciloscópio para verificar os níveis de tensão e as formas de onda produzidas.
+
+**Resultados**
+
+Foram concluídos a prototipagem do circuito, os testes individuais das funcionalidades e os modelos iniciais da estrutura 3D. Os testes confirmaram o funcionamento das chaves, dos indicadores LED, da protoboard, da ponta de prova e dos circuitos de alimentação, cujos valores medidos foram compatíveis com os valores esperados. O gerador de clock apresentou formas de onda compatíveis com os valores definidos no projeto. O custo estimado de uma unidade foi de R$ 1.000,00, sendo R$ 350,00 em componentes, R$ 450,00 na fabricação da placa, R$ 100,00 na estrutura e R$ 100,00 em mão de obra. Esse valor corresponde a aproximadamente metade de um Datapool 8810. Permanecem pendentes a fabricação, a montagem e os testes integrados da placa de circuito impresso e da estrutura física.
+ 
+**Conclusão**
+Os resultados preliminares indicam a viabilidade técnica e econômica do desenvolvimento de um módulo didático capaz de reproduzir as principais funcionalidades do Datapool 8810. A proposta poderá contribuir para a renovação dos equipamentos do laboratório, a redução dos custos e a simplificação de futuras manutenções. Após a montagem e a validação do protótipo completo, a solução poderá ser adaptada para outros departamentos e instituições que utilizem equipamentos semelhantes.
