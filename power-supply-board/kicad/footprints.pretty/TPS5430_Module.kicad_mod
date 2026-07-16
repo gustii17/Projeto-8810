@@ -7,7 +7,7 @@
 		(at 0 -0.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "1f160ca6-fe65-4109-8348-419ae80d0d9d")
+		(uuid "dca465f2-9c7e-4c2c-9faa-0464d32a73f0")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "7b3618cf-558a-4e5d-babd-240e6fd5512d")
+		(uuid "4621f9c0-1be3-42f0-8de6-6e43abc2a07f")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "d038ee89-315a-4a61-a779-7b62e3829721")
+		(uuid "7b03ad72-98f7-43e8-a264-169e49dd66a4")
 		(effects
 			(font
 				(size 1 1)
@@ -45,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "a92b42c8-cc7f-4389-8c8d-ee25113e9621")
+		(uuid "c858769b-9740-4d8e-a17e-c6fd3f0a17f7")
 		(effects
 			(font
 				(size 1 1)
@@ -56,21 +56,21 @@
 	(attr smd)
 	(duplicate_pad_numbers_are_jumpers no)
 	(fp_rect
-		(start -27.5 -27.5)
-		(end 27.5 27.5)
+		(start -25 -25)
+		(end 25 25)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "0df2833c-e162-4960-88e1-09e3abed5cc6")
+		(uuid "69e17564-86b3-454b-9fb4-08b89325cc44")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 2.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "8745b81d-5db3-42d8-869f-00d60d4cde50")
+		(uuid "4df951b2-5207-4708-87f2-7f627194d298")
 		(effects
 			(font
 				(size 1 1)
@@ -83,28 +83,28 @@
 		(size 5 5)
 		(drill 3)
 		(layers "*.Cu" "*.Mask")
-		(uuid "487b6722-badc-4d9d-84f6-e0ed1d970706")
+		(uuid "c2a097b5-afe0-4db7-8742-c359a710c1c5")
 	)
 	(pad "" np_thru_hole circle
 		(at -21.2 21.8)
 		(size 5 5)
 		(drill 3)
 		(layers "*.Cu" "*.Mask")
-		(uuid "159d23e3-9021-4c16-81dd-f85318ea65dd")
+		(uuid "f3099f99-a65c-4f4b-b736-9ab17894c516")
 	)
 	(pad "" np_thru_hole circle
 		(at 20.55 -21.8)
 		(size 5 5)
 		(drill 3)
 		(layers "*.Cu" "*.Mask")
-		(uuid "ecc530d1-f56d-4286-bd87-83cee0173135")
+		(uuid "ec8bfef4-065c-4b7b-bc01-305da0005747")
 	)
 	(pad "" np_thru_hole circle
 		(at 20.55 21.8)
 		(size 5 5)
 		(drill 3)
 		(layers "*.Cu" "*.Mask")
-		(uuid "5534fe63-c230-4398-b920-244c0a73d734")
+		(uuid "acfd012f-f19b-4b12-81a5-2c63d29d9933")
 	)
 	(embedded_fonts no)
 )
