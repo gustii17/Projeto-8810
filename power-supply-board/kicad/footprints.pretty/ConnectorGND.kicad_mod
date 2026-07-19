@@ -1,13 +1,14 @@
-(footprint "TPS5430_Module"
+(footprint "ConnectorGND"
 	(version 20260206)
 	(generator "pcbnew")
 	(generator_version "10.0")
 	(layer "F.Cu")
-	(property "Reference" "REF**"
+	(property "Reference" "J"
 		(at 0 -0.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "8673bfaa-9c03-4a20-aac1-f3632c771cb3")
+		(hide yes)
+		(uuid "024cd9b0-fb33-496a-9e66-c66bc979212b")
 		(effects
 			(font
 				(size 1 1)
@@ -15,11 +16,11 @@
 			)
 		)
 	)
-	(property "Value" "TPS5430_Module"
-		(at 0 1 0)
+	(property "Value" "Connector"
+		(at 0.095188 2.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "08f19cd9-952e-4407-9c90-ccd5661a59ab")
+		(uuid "bd7a99e3-0913-4ee0-b25f-cd582d37167c")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +33,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "2fc49a64-c110-4230-b82c-a6eee525c964")
+		(uuid "7d8fe326-c9b2-4fe1-90a0-adf5022d9743")
 		(effects
 			(font
 				(size 1 1)
@@ -45,7 +46,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "23ed7227-2a0b-4599-a485-1700acb8835a")
+		(uuid "7fd89046-ba40-4d4b-aba2-896ea9524b4b")
 		(effects
 			(font
 				(size 1 1)
@@ -55,45 +56,13 @@
 	)
 	(attr smd)
 	(duplicate_pad_numbers_are_jumpers no)
-	(fp_text user "${REFERENCE}"
-		(at 0 2.5 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(uuid "62883faa-3331-4818-86f7-69150cd48308")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(pad "" np_thru_hole circle
-		(at -21.2 -21.8)
-		(size 5 5)
-		(drill 3)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 2 2)
+		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
-		(uuid "5ee96505-163c-4e55-b88f-6806ce3b4265")
-	)
-	(pad "" np_thru_hole circle
-		(at -21.2 21.8)
-		(size 5 5)
-		(drill 3)
-		(layers "*.Cu" "*.Mask")
-		(uuid "aa7ca30d-8afd-4133-bc84-f025ac870d46")
-	)
-	(pad "" np_thru_hole circle
-		(at 20.55 -21.8)
-		(size 5 5)
-		(drill 3)
-		(layers "*.Cu" "*.Mask")
-		(uuid "422c7c59-2781-4953-9d7e-db90b7ea4b59")
-	)
-	(pad "" np_thru_hole circle
-		(at 20.55 21.8)
-		(size 5 5)
-		(drill 3)
-		(layers "*.Cu" "*.Mask")
-		(uuid "33f9b6dd-f295-4326-b2c1-cca0fa23580a")
+		(remove_unused_layers no)
+		(uuid "3ff4ed86-f0fd-422e-820c-2b7d854e90ec")
 	)
 	(zone
 		(layers "F.Cu" "B.Cu" "In1.Cu" "F.SilkS" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu"
@@ -102,7 +71,7 @@
 			"In21.Cu" "In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu"
 			"In28.Cu" "In29.Cu" "In30.Cu"
 		)
-		(uuid "1d91f579-044c-47b6-88f1-cb0086e334df")
+		(uuid "6a5ec481-fc82-4737-ac13-900dfa1fe950")
 		(hatch edge 0.5)
 		(connect_pads
 			(clearance 0)
@@ -112,7 +81,7 @@
 			(tracks not_allowed)
 			(vias not_allowed)
 			(pads not_allowed)
-			(copperpour not_allowed)
+			(copperpour allowed)
 			(footprints allowed)
 		)
 		(placement
@@ -126,7 +95,11 @@
 		)
 		(polygon
 			(pts
-				(xy -25 -25) (xy 25 -25) (xy 25 25) (xy -25 25)
+				(arc
+					(start -2 0)
+					(mid 2 0)
+					(end -2 0)
+				)
 			)
 		)
 	)

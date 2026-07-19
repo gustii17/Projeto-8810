@@ -7,7 +7,8 @@
 		(at 0 -0.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "efa151f1-71ef-40bd-b99a-a55447309c2d")
+		(hide yes)
+		(uuid "83151de3-65f3-4b31-b92d-827dca847c99")
 		(effects
 			(font
 				(size 1 1)
@@ -16,10 +17,10 @@
 		)
 	)
 	(property "Value" "Connector"
-		(at 0 1 0)
+		(at 0.095188 2.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "93da4726-7611-41fa-8a5d-2d0491a8bf0c")
+		(uuid "5916e5f1-3e5e-4d3c-9df8-b599c4c7cd1f")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +33,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "f8668c82-2415-42d1-8b1e-b6ee59d573ac")
+		(uuid "778fe329-5697-4ae5-a88e-ac4bcc84df6c")
 		(effects
 			(font
 				(size 1 1)
@@ -45,7 +46,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "640f6c66-865a-4ff4-a5d4-8a31bad33aae")
+		(uuid "babd0406-1d20-4186-9c7c-bf1856926581")
 		(effects
 			(font
 				(size 1 1)
@@ -55,24 +56,52 @@
 	)
 	(attr smd)
 	(duplicate_pad_numbers_are_jumpers no)
-	(fp_circle
-		(center 0 0)
-		(end 2 0)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(fill no)
-		(layer "F.SilkS")
-		(uuid "1c3c4dac-3eff-470e-9fd9-4372505f8190")
-	)
 	(pad "1" thru_hole circle
 		(at 0 0)
-		(size 1.4 1.4)
+		(size 2 2)
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "c6657c75-f845-4e1a-86b9-b780479219ef")
+		(uuid "ab22b9d0-1d45-4777-b3a3-ff017735825e")
+	)
+	(zone
+		(layers "F.Cu" "B.Cu" "In1.Cu" "F.SilkS" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu"
+			"In6.Cu" "In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu"
+			"In14.Cu" "In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu"
+			"In21.Cu" "In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu"
+			"In28.Cu" "In29.Cu" "In30.Cu"
+		)
+		(uuid "f4bc3cb3-97d6-48f3-8a08-ccc61bac2222")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(keepout
+			(tracks allowed)
+			(vias allowed)
+			(pads allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
+		)
+		(polygon
+			(pts
+				(arc
+					(start -2 0)
+					(mid 2 0)
+					(end -2 0)
+				)
+			)
+		)
 	)
 	(embedded_fonts no)
 )

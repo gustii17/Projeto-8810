@@ -3,12 +3,37 @@
 	(generator "pcbnew")
 	(generator_version "10.0")
 	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.5 -1 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "74cfff2e-3c59-47b3-8127-5e3c364f6de6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "USBC_Module"
+		(at 0.5 3.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "4a153fad-6fc6-4612-acb2-a3c241f80722")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "8ab01438-6a52-47fa-b512-f43f39d32036")
+		(uuid "0152a79c-e181-4da5-a47d-fd45006860ad")
 		(effects
 			(font
 				(size 1 1)
@@ -21,50 +46,26 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "57e68da4-b43e-4ca7-b525-38ab7749539b")
+		(uuid "4d347588-e1f7-46e3-898f-513a8a4b00a1")
 		(effects
 			(font
 				(size 1 1)
 				(thickness 0.15)
-			)
-		)
-	)
-	(property "Value" "USBC_Module"
-		(at 0.5 1 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(uuid "82a6ee5e-40d5-471b-8404-dc951f703afd")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Reference" "REF**"
-		(at 0.5 -1 0)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "3765815e-3620-4a51-b498-5a3ac815e45e")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.1)
 			)
 		)
 	)
 	(attr smd)
 	(duplicate_pad_numbers_are_jumpers no)
 	(fp_rect
-		(start -1.5 -2.5)
-		(end 1.5 2.5)
+		(start -1.5 -3)
+		(end 1.5 3)
 		(stroke
 			(width 0.1)
-			(type solid)
+			(type default)
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "8bc5ac62-0208-44d6-a8ee-704d71ffb458")
+		(uuid "ef28f12c-c0bd-4eb4-bd24-b2d83dd08309")
 	)
 	(pad "0" thru_hole circle
 		(at 0 1.5)
@@ -72,7 +73,7 @@
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "2bef7c38-f76e-4039-a469-4b1e4143c46e")
+		(uuid "530a55c6-220b-4ef8-8214-c2a47f4cd59c")
 	)
 	(pad "1" thru_hole circle
 		(at 0 -1.5)
@@ -80,7 +81,42 @@
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "4244db7f-1c7d-429a-8c1c-9a22306bdb35")
+		(uuid "9a51ba97-600f-4a5b-99eb-66276d73949b")
+	)
+	(zone
+		(layers "F.Cu" "B.Cu" "In1.Cu" "F.SilkS" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu"
+			"In6.Cu" "In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu"
+			"In14.Cu" "In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu"
+			"In21.Cu" "In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu"
+			"In28.Cu" "In29.Cu" "In30.Cu"
+		)
+		(uuid "56bd3b8b-2cbe-4178-9892-d0bf658ff8a3")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
+		)
+		(polygon
+			(pts
+				(xy 1.5 0) (xy 1.5 -3) (xy -1.5 -3) (xy -1.5 0)
+			)
+		)
 	)
 	(embedded_fonts no)
 )
