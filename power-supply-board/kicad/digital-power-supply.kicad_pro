@@ -540,6 +540,7 @@
       "netlist": "",
       "plot": "",
       "specctra_dsn": "",
+      "step": "digital-power-supply.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
