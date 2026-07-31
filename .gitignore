@@ -1,3 +1,14 @@
-**/*.FCBak
-**/*.LOG
-**/*.log
+# Logs and temporary files Altium/KiCAD/FreeCAD
+*.FCBak
+*.LOG
+*.log
+*.REP
+*.bak
+*.BAK
+pcb/**/History/
+pcb/**/__Previews
+*.kicad_prl
+*.kicad_pro-bak
+*.tmp
+*.lck
+power-supply-board/kicad/*-backups/
