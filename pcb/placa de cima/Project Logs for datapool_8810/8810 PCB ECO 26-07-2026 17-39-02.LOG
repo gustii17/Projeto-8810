@@ -1,0 +1,21 @@
+Change Component Description : Designator=U1 Old Description=.56IN. 7 SEGMENT SINGLE DISPLAY, 565NM GREEN, GRAY FACE, WHITE SEGMENTS, COMMON New Description=.56IN. 7 SEGMENT SINGLE DISPLAY, 565NM GREEN, GRAY FACE, WHITE SEGMENTS, COMMON | Lumex LDS-C512RI
+Added Component: Designator=MP?(746600430R)
+Add component (AddParameter): Name = "Current Rating"; Value = "50A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "3mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Material"; Value = "Brass"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "150°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-55°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "REACH SVHC"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "Compliant"; VariantName = "[No Variations]"
+Add Pin To Net: Unknown Pin: Pin chavA1-com
+Add Pin To Net: Unknown Pin: Pin chavB1-com
+Add Pin To Net: Unknown Pin: Pin chavC1-com
+Add Pin To Net: Unknown Pin: Pin chavD1-com
+Add Pin To Net: Unknown Pin: Pin chavE1-com
+Add Pin To Net: Unknown Pin: Pin chavF1-com
+Add Pin To Net: Unknown Pin: Pin chavG1-com
+Add Pin To Net: Unknown Pin: Pin chavH1-com
+Add Pin To Net: Unknown Pin: Pin chavI1-com
+Add Pin To Net: Unknown Pin: Pin chavJ1-com
+Added Member To Class: ClassName=protoboard Member=Component MP? 746600430R

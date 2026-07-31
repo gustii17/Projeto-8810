@@ -1,0 +1,16 @@
+Update Managed Component C1 From CMP-05427-000021-1[EEU-FM1H101BJ] To CMP-05427-000021-1[EEU-FM1H101BJ] in alimentacao.SchDoc
+Update Managed Component C2 From CMP-06035-028451-1[RCER71H335K3K1H03B] To CMP-06035-028451-1[RCER71H335K3K1H03B] in alimentacao.SchDoc
+Update Managed Component C3 From CMP-06035-028451-1[RCER71H335K3K1H03B] To CMP-06035-028451-1[RCER71H335K3K1H03B] in alimentacao.SchDoc
+Update Managed Component C4 From CMP-05427-000021-1[EEU-FM1H101BJ] To CMP-05427-000021-1[EEU-FM1H101BJ] in alimentacao.SchDoc
+Update Managed Component C5 From CMP-05427-000021-1[EEU-FM1H101BJ] To CMP-05427-000021-1[EEU-FM1H101BJ] in alimentacao.SchDoc
+Update Managed Component C6 From CMP-06035-028451-1[RCER71H335K3K1H03B] To CMP-06035-028451-1[RCER71H335K3K1H03B] in alimentacao.SchDoc
+Replace Part H_5V header 2x4 in C:\Users\GUSTAVO\OneDrive\trabalhos\extensão\Laboratorios\Projeto 8810\pcb\placa de cima\alimentacao.SchDoc with header 2x4 from Schlib1.SchLib
+Replace Part H_12V header 2x4 in C:\Users\GUSTAVO\OneDrive\trabalhos\extensão\Laboratorios\Projeto 8810\pcb\placa de cima\alimentacao.SchDoc with header 2x4 from Schlib1.SchLib
+Replace Part H_-12V header 2x4 in C:\Users\GUSTAVO\OneDrive\trabalhos\extensão\Laboratorios\Projeto 8810\pcb\placa de cima\alimentacao.SchDoc with header 2x4 from Schlib1.SchLib
+Replace Part H_gnd header 2x4 in C:\Users\GUSTAVO\OneDrive\trabalhos\extensão\Laboratorios\Projeto 8810\pcb\placa de cima\alimentacao.SchDoc with header 2x4 from Schlib1.SchLib
+Update Managed Component pin_5V From CMP-02766-001775-1[TSW-101-07-L-S] To CMP-02766-001775-1[TSW-101-07-L-S] in alimentacao.SchDoc
+Update Managed Component pin_5V2 From CMP-02766-001775-1[TSW-101-07-L-S] To CMP-02766-001775-1[TSW-101-07-L-S] in alimentacao.SchDoc
+Update Managed Component pin_12V From CMP-02766-001775-1[TSW-101-07-L-S] To CMP-02766-001775-1[TSW-101-07-L-S] in alimentacao.SchDoc
+Update Managed Component pin_-12V From CMP-02766-001775-1[TSW-101-07-L-S] To CMP-02766-001775-1[TSW-101-07-L-S] in alimentacao.SchDoc
+Update Managed Component pin_gnd1 From CMP-02766-001775-1[TSW-101-07-L-S] To CMP-02766-001775-1[TSW-101-07-L-S] in alimentacao.SchDoc
+Update Managed Component pin_gnd2 From CMP-02766-001775-1[TSW-101-07-L-S] To CMP-02766-001775-1[TSW-101-07-L-S] in alimentacao.SchDoc

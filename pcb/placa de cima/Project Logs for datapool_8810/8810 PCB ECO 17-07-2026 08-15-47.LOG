@@ -1,0 +1,22 @@
+Change Physical Footprint: Designator=buffer1 Old Footprint=N0020A New Footprint=N0020A
+Change Physical Footprint: Designator=H_5v Old Footprint=header 2x4 New Footprint=header 2x4
+Change Physical Footprint: Designator=H_12v Old Footprint=header 2x4 New Footprint=header 2x4
+Change Physical Footprint: Designator=H_-12v Old Footprint=header 2x4 New Footprint=header 2x4
+Change Physical Footprint: Designator=H_gnd Old Footprint=header 2x4 New Footprint=header 2x4
+Change Physical Footprint: Designator=H_LED1 Old Footprint=header 2x1 New Footprint=header 2x1
+Change Physical Footprint: Designator=H_LED2 Old Footprint=header 2x1 New Footprint=header 2x1
+Change Physical Footprint: Designator=H_LED3 Old Footprint=header 2x1 New Footprint=header 2x1
+Change Physical Footprint: Designator=H_LED4 Old Footprint=header 2x1 New Footprint=header 2x1
+Change Physical Footprint: Designator=H_LED5 Old Footprint=header 2x1 New Footprint=header 2x1
+Change Physical Footprint: Designator=H_LED6 Old Footprint=header 2x1 New Footprint=header 2x1
+Change Physical Footprint: Designator=H_LED7 Old Footprint=header 2x1 New Footprint=header 2x1
+Change Physical Footprint: Designator=H_LED8 Old Footprint=header 2x1 New Footprint=header 2x1
+Change Physical Footprint: Designator=H_LED9 Old Footprint=header 2x1 New Footprint=header 2x1
+Change Physical Footprint: Designator=H_LED10 Old Footprint=header 2x1 New Footprint=header 2x1
+Change Physical Footprint: Designator=HAB1 Old Footprint=header 2x4 New Footprint=header 2x4
+Change Physical Footprint: Designator=HCD1 Old Footprint=header 2x4 New Footprint=header 2x4
+Change Physical Footprint: Designator=Hclk1 Old Footprint=header 2x4 New Footprint=header 2x4
+Change Physical Footprint: Designator=Hclk2 Old Footprint=header 2x4 New Footprint=header 2x4
+Change Physical Footprint: Designator=HEF1 Old Footprint=header 2x4 New Footprint=header 2x4
+Change Physical Footprint: Designator=HGH1 Old Footprint=header 2x4 New Footprint=header 2x4
+Change Physical Footprint: Designator=HIJ1 Old Footprint=header 2x4 New Footprint=header 2x4

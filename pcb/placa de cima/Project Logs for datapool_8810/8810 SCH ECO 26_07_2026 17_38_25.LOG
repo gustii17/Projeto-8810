@@ -1,0 +1,8 @@
+Remove Pin=nano1-13 From Net=segA
+Remove Pin=nano1-14 From Net=segBC
+Remove Pin=nano1-23 From Net=segE
+Remove Pin=nano1-24 From Net=segF
+Add Pin To Net: Pin=nano1-13 Old Net=segA New Net=segF
+Add Pin To Net: Pin=nano1-14 Old Net=segBC New Net=segE
+Add Pin To Net: Pin=nano1-23 Old Net=segE New Net=segBC
+Add Pin To Net: Pin=nano1-24 Old Net=segF New Net=segA

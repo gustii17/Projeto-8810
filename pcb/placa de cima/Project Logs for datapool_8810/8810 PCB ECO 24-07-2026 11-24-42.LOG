@@ -1,0 +1,20 @@
+Change Component Designator: OldDesignator=A NewDesignator=chavA1
+Change Component Designator: OldDesignator=B NewDesignator=chavB1
+Change Component Designator: OldDesignator=C NewDesignator=chavC1
+Change Component Designator: OldDesignator=D NewDesignator=chavD1
+Change Component Designator: OldDesignator=E NewDesignator=chavE1
+Change Component Designator: OldDesignator=F NewDesignator=chavF1
+Change Component Designator: OldDesignator=G NewDesignator=chavG1
+Change Component Designator: OldDesignator=H NewDesignator=chavH1
+Change Component Designator: OldDesignator=I NewDesignator=chavI1
+Change Component Designator: OldDesignator=J NewDesignator=chavJ1
+Add Pin To Net: Unknown Pin: Pin chavA1-com
+Add Pin To Net: Unknown Pin: Pin chavB1-com
+Add Pin To Net: Unknown Pin: Pin chavC1-com
+Add Pin To Net: Unknown Pin: Pin chavD1-com
+Add Pin To Net: Unknown Pin: Pin chavE1-com
+Add Pin To Net: Unknown Pin: Pin chavF1-com
+Add Pin To Net: Unknown Pin: Pin chavG1-com
+Add Pin To Net: Unknown Pin: Pin chavH1-com
+Add Pin To Net: Unknown Pin: Pin chavI1-com
+Add Pin To Net: Unknown Pin: Pin chavJ1-com

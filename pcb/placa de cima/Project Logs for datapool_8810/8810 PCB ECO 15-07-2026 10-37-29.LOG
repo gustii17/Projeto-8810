@@ -1,0 +1,153 @@
+Change Physical Footprint: Designator=buffer1 Old Footprint=N0020A New Footprint=N0020A
+Change Physical Footprint: Designator=C1 Old Footprint=FP-FM8-MFG New Footprint=FP-FM8-MFG
+Change Physical Footprint: Designator=C2 Old Footprint=FP-RCE3M1-MFG New Footprint=FP-RCE3M1-MFG
+Change Physical Footprint: Designator=C3 Old Footprint=FP-RCE3M1-MFG New Footprint=FP-RCE3M1-MFG
+Change Physical Footprint: Designator=C4 Old Footprint=FP-FM8-MFG New Footprint=FP-FM8-MFG
+Change Physical Footprint: Designator=C5 Old Footprint=FP-FM8-MFG New Footprint=FP-FM8-MFG
+Change Physical Footprint: Designator=C6 Old Footprint=FP-RCE3M1-MFG New Footprint=FP-RCE3M1-MFG
+Change Physical Footprint: Designator=C7 Old Footprint=FP-RCE3M1-MFG New Footprint=FP-RCE3M1-MFG
+Change Physical Footprint: Designator=C8 Old Footprint=FP-RCE3M1-MFG New Footprint=FP-RCE3M1-MFG
+Change Physical Footprint: Designator=C9 Old Footprint=FP-RCE3M1-MFG New Footprint=FP-RCE3M1-MFG
+Change Physical Footprint: Designator=C10 Old Footprint=FP-RCE3M1-MFG New Footprint=FP-RCE3M1-MFG
+Change Physical Footprint: Designator=C11 Old Footprint=FP-RCE3M1-MFG New Footprint=FP-RCE3M1-MFG
+Change Physical Footprint: Designator=C12 Old Footprint=FP-RCE3M1-MFG New Footprint=FP-RCE3M1-MFG
+Change Physical Footprint: Designator=C13 Old Footprint=FP-RCE3M1-MFG New Footprint=FP-RCE3M1-MFG
+Change Physical Footprint: Designator=C14 Old Footprint=FP-RCE3M1-MFG New Footprint=FP-RCE3M1-MFG
+Change Physical Footprint: Designator=C15 Old Footprint=FP-RCE3M1-MFG New Footprint=FP-RCE3M1-MFG
+Change Physical Footprint: Designator=C16 Old Footprint=FP-RCE3M1-MFG New Footprint=FP-RCE3M1-MFG
+Change Physical Footprint: Designator=C17 Old Footprint=FP-RCE3M1-MFG New Footprint=FP-RCE3M1-MFG
+Change Physical Footprint: Designator=chavA Old Footprint=MTS-102 New Footprint=MTS-102
+Change Physical Footprint: Designator=chavB Old Footprint=MTS-102 New Footprint=MTS-102
+Change Physical Footprint: Designator=chavC Old Footprint=MTS-102 New Footprint=MTS-102
+Change Physical Footprint: Designator=chavD Old Footprint=MTS-102 New Footprint=MTS-102
+Change Physical Footprint: Designator=chavE Old Footprint=MTS-102 New Footprint=MTS-102
+Change Physical Footprint: Designator=chavF Old Footprint=MTS-102 New Footprint=MTS-102
+Change Physical Footprint: Designator=chavG Old Footprint=MTS-102 New Footprint=MTS-102
+Change Physical Footprint: Designator=chavH Old Footprint=MTS-102 New Footprint=MTS-102
+Change Physical Footprint: Designator=chavI Old Footprint=MTS-102 New Footprint=MTS-102
+Change Physical Footprint: Designator=chavJ Old Footprint=MTS-102 New Footprint=MTS-102
+Change Physical Footprint: Designator=divi1 Old Footprint=N0016A New Footprint=N0016A
+Change Physical Footprint: Designator=H_5v Old Footprint=header 2x4 New Footprint=header 2x4
+Change Physical Footprint: Designator=H_12v Old Footprint=header 2x4 New Footprint=header 2x4
+Change Physical Footprint: Designator=H_-12v Old Footprint=header 2x4 New Footprint=header 2x4
+Change Physical Footprint: Designator=H_gnd Old Footprint=header 2x4 New Footprint=header 2x4
+Change Physical Footprint: Designator=H_LED1 Old Footprint=header 2x1 New Footprint=header 2x1
+Change Physical Footprint: Designator=H_LED2 Old Footprint=header 2x1 New Footprint=header 2x1
+Change Physical Footprint: Designator=H_LED3 Old Footprint=header 2x1 New Footprint=header 2x1
+Change Physical Footprint: Designator=H_LED4 Old Footprint=header 2x1 New Footprint=header 2x1
+Change Physical Footprint: Designator=H_LED5 Old Footprint=header 2x1 New Footprint=header 2x1
+Change Physical Footprint: Designator=H_LED6 Old Footprint=header 2x1 New Footprint=header 2x1
+Change Physical Footprint: Designator=H_LED7 Old Footprint=header 2x1 New Footprint=header 2x1
+Change Physical Footprint: Designator=H_LED8 Old Footprint=header 2x1 New Footprint=header 2x1
+Change Physical Footprint: Designator=H_LED9 Old Footprint=header 2x1 New Footprint=header 2x1
+Change Physical Footprint: Designator=H_LED10 Old Footprint=header 2x1 New Footprint=header 2x1
+Change Physical Footprint: Designator=HAB1 Old Footprint=header 2x4 New Footprint=header 2x4
+Change Physical Footprint: Designator=HCD1 Old Footprint=header 2x4 New Footprint=header 2x4
+Change Physical Footprint: Designator=Hclk1 Old Footprint=header 2x4 New Footprint=header 2x4
+Change Physical Footprint: Designator=Hclk2 Old Footprint=header 2x4 New Footprint=header 2x4
+Change Physical Footprint: Designator=HEF1 Old Footprint=header 2x4 New Footprint=header 2x4
+Change Physical Footprint: Designator=HGH1 Old Footprint=header 2x4 New Footprint=header 2x4
+Change Physical Footprint: Designator=HIJ1 Old Footprint=header 2x4 New Footprint=header 2x4
+Change Physical Footprint: Designator=inv1 Old Footprint=N0014A New Footprint=N0014A
+Change Physical Footprint: Designator=inv2 Old Footprint=N0014A New Footprint=N0014A
+Change Physical Footprint: Designator=inv3 Old Footprint=N0014A New Footprint=N0014A
+Change Physical Footprint: Designator=inv4 Old Footprint=N0014A New Footprint=N0014A
+Change Physical Footprint: Designator=LED1 Old Footprint=KING-WP7113SGD_V New Footprint=KING-WP7113SGD_V
+Change Physical Footprint: Designator=LED2 Old Footprint=KING-WP7113SGD_V New Footprint=KING-WP7113SGD_V
+Change Physical Footprint: Designator=LED3 Old Footprint=KING-WP7113SGD_V New Footprint=KING-WP7113SGD_V
+Change Physical Footprint: Designator=LED4 Old Footprint=KING-WP7113SGD_V New Footprint=KING-WP7113SGD_V
+Change Physical Footprint: Designator=LED5 Old Footprint=KING-WP7113SGD_V New Footprint=KING-WP7113SGD_V
+Change Physical Footprint: Designator=LED6 Old Footprint=KING-WP7113SGD_V New Footprint=KING-WP7113SGD_V
+Change Physical Footprint: Designator=LED7 Old Footprint=KING-WP7113SGD_V New Footprint=KING-WP7113SGD_V
+Change Physical Footprint: Designator=LED8 Old Footprint=KING-WP7113SGD_V New Footprint=KING-WP7113SGD_V
+Change Physical Footprint: Designator=LED9 Old Footprint=KING-WP7113SGD_V New Footprint=KING-WP7113SGD_V
+Change Physical Footprint: Designator=LED10 Old Footprint=KING-WP7113SGD_V New Footprint=KING-WP7113SGD_V
+Change Physical Footprint: Designator=lm1 Old Footprint=J0014A New Footprint=J0014A
+Change Physical Footprint: Designator=lm2 Old Footprint=J0014A New Footprint=J0014A
+Change Physical Footprint: Designator=lm3 Old Footprint=J0014A New Footprint=J0014A
+Change Physical Footprint: Designator=lm4 Old Footprint=J0014A New Footprint=J0014A
+Change Physical Footprint: Designator=nano1 Old Footprint=FP-A000005-MFG New Footprint=FP-A000005-MFG
+Change Physical Footprint: Designator=P1 Old Footprint=PCBComponent_1 New Footprint=PCBComponent_1
+Change Physical Footprint: Designator=pin_5V Old Footprint=FP-TSW-101-07-L-S-MFG New Footprint=FP-TSW-101-07-L-S-MFG
+Change Physical Footprint: Designator=pin_5V2 Old Footprint=FP-TSW-101-07-L-S-MFG New Footprint=FP-TSW-101-07-L-S-MFG
+Change Physical Footprint: Designator=pin_12V Old Footprint=FP-TSW-101-07-L-S-MFG New Footprint=FP-TSW-101-07-L-S-MFG
+Change Physical Footprint: Designator=pin_-12V Old Footprint=FP-TSW-101-07-L-S-MFG New Footprint=FP-TSW-101-07-L-S-MFG
+Change Physical Footprint: Designator=pin_gnd Old Footprint=FP-TSW-101-07-L-S-MFG New Footprint=FP-TSW-101-07-L-S-MFG
+Change Physical Footprint: Designator=pin_gnd2 Old Footprint=FP-TSW-101-07-L-S-MFG New Footprint=FP-TSW-101-07-L-S-MFG
+Change Physical Footprint: Designator=pot1 Old Footprint=FP-3296W-MFG New Footprint=FP-3296W-MFG
+Change Physical Footprint: Designator=pot2 Old Footprint=FP-3296W-MFG New Footprint=FP-3296W-MFG
+Change Physical Footprint: Designator=pot3 Old Footprint=FP-3296W-MFG New Footprint=FP-3296W-MFG
+Change Physical Footprint: Designator=pot4 Old Footprint=FP-3296W-MFG New Footprint=FP-3296W-MFG
+Change Physical Footprint: Designator=pot5 Old Footprint=FP-3296W-MFG New Footprint=FP-3296W-MFG
+Change Physical Footprint: Designator=pot6 Old Footprint=FP-3296W-MFG New Footprint=FP-3296W-MFG
+Change Physical Footprint: Designator=probe1 Old Footprint=FP-TSW-101-07-L-S-MFG New Footprint=FP-TSW-101-07-L-S-MFG
+Change Physical Footprint: Designator=R1 Old Footprint=FP-MRS1600-MFG New Footprint=FP-MRS1600-MFG
+Change Physical Footprint: Designator=R2 Old Footprint=FP-MRS1600-MFG New Footprint=FP-MRS1600-MFG
+Change Physical Footprint: Designator=R3 Old Footprint=FP-MRS1600-MFG New Footprint=FP-MRS1600-MFG
+Change Physical Footprint: Designator=R4 Old Footprint=FP-MRS1600-MFG New Footprint=FP-MRS1600-MFG
+Change Physical Footprint: Designator=R5 Old Footprint=FP-MRS1600-MFG New Footprint=FP-MRS1600-MFG
+Change Physical Footprint: Designator=R6 Old Footprint=FP-MRS1600-MFG New Footprint=FP-MRS1600-MFG
+Change Physical Footprint: Designator=R7 Old Footprint=FP-MRS1600-MFG New Footprint=FP-MRS1600-MFG
+Change Physical Footprint: Designator=R8 Old Footprint=FP-MRS1600-MFG New Footprint=FP-MRS1600-MFG
+Change Physical Footprint: Designator=R9 Old Footprint=FP-MRS1600-MFG New Footprint=FP-MRS1600-MFG
+Change Physical Footprint: Designator=R10 Old Footprint=FP-MRS1600-MFG New Footprint=FP-MRS1600-MFG
+Change Physical Footprint: Designator=R11 Old Footprint=FP-MRS1600-MFG New Footprint=FP-MRS1600-MFG
+Change Physical Footprint: Designator=R12 Old Footprint=FP-MRS1600-MFG New Footprint=FP-MRS1600-MFG
+Change Physical Footprint: Designator=R13 Old Footprint=FP-MRS1600-MFG New Footprint=FP-MRS1600-MFG
+Change Physical Footprint: Designator=R14 Old Footprint=FP-MRS1600-MFG New Footprint=FP-MRS1600-MFG
+Change Physical Footprint: Designator=R15 Old Footprint=FP-MRS1600-MFG New Footprint=FP-MRS1600-MFG
+Change Physical Footprint: Designator=R16 Old Footprint=FP-MRS1600-MFG New Footprint=FP-MRS1600-MFG
+Change Physical Footprint: Designator=R17 Old Footprint=FP-MRS1600-MFG New Footprint=FP-MRS1600-MFG
+Change Physical Footprint: Designator=R18 Old Footprint=FP-MRS1600-MFG New Footprint=FP-MRS1600-MFG
+Change Physical Footprint: Designator=R19 Old Footprint=FP-MRS1600-MFG New Footprint=FP-MRS1600-MFG
+Change Physical Footprint: Designator=R20 Old Footprint=FP-MRS1600-MFG New Footprint=FP-MRS1600-MFG
+Change Physical Footprint: Designator=R21 Old Footprint=FP-MRS1600-MFG New Footprint=FP-MRS1600-MFG
+Change Physical Footprint: Designator=R22 Old Footprint=FP-MRS1600-MFG New Footprint=FP-MRS1600-MFG
+Change Physical Footprint: Designator=R23 Old Footprint=FP-MRS1600-MFG New Footprint=FP-MRS1600-MFG
+Change Physical Footprint: Designator=R24 Old Footprint=FP-MRS1600-MFG New Footprint=FP-MRS1600-MFG
+Change Physical Footprint: Designator=R25 Old Footprint=FP-MRS1600-MFG New Footprint=FP-MRS1600-MFG
+Change Physical Footprint: Designator=R26 Old Footprint=FP-MRS1600-MFG New Footprint=FP-MRS1600-MFG
+Change Physical Footprint: Designator=R27 Old Footprint=FP-MRS1600-MFG New Footprint=FP-MRS1600-MFG
+Change Physical Footprint: Designator=R28 Old Footprint=FP-MRS1600-MFG New Footprint=FP-MRS1600-MFG
+Change Physical Footprint: Designator=R29 Old Footprint=FP-MRS1600-MFG New Footprint=FP-MRS1600-MFG
+Change Physical Footprint: Designator=R30 Old Footprint=FP-MRS1600-MFG New Footprint=FP-MRS1600-MFG
+Change Physical Footprint: Designator=R31 Old Footprint=FP-MRS1600-MFG New Footprint=FP-MRS1600-MFG
+Change Physical Footprint: Designator=R32 Old Footprint=FP-MRS1600-MFG New Footprint=FP-MRS1600-MFG
+Change Physical Footprint: Designator=R33 Old Footprint=FP-MRS1600-MFG New Footprint=FP-MRS1600-MFG
+Change Physical Footprint: Designator=R34 Old Footprint=FP-MRS1600-MFG New Footprint=FP-MRS1600-MFG
+Change Physical Footprint: Designator=R35 Old Footprint=FP-MRS1600-MFG New Footprint=FP-MRS1600-MFG
+Change Physical Footprint: Designator=R36 Old Footprint=FP-MRS1600-MFG New Footprint=FP-MRS1600-MFG
+Change Physical Footprint: Designator=R37 Old Footprint=FP-MRS1600-MFG New Footprint=FP-MRS1600-MFG
+Change Physical Footprint: Designator=R38 Old Footprint=FP-MRS1600-MFG New Footprint=FP-MRS1600-MFG
+Change Physical Footprint: Designator=R39 Old Footprint=FP-MRS1600-MFG New Footprint=FP-MRS1600-MFG
+Change Physical Footprint: Designator=R40 Old Footprint=FP-MRS1600-MFG New Footprint=FP-MRS1600-MFG
+Change Physical Footprint: Designator=R41 Old Footprint=FP-MRS1600-MFG New Footprint=FP-MRS1600-MFG
+Change Physical Footprint: Designator=R42 Old Footprint=FP-MRS1600-MFG New Footprint=FP-MRS1600-MFG
+Change Physical Footprint: Designator=R43 Old Footprint=FP-MRS1600-MFG New Footprint=FP-MRS1600-MFG
+Change Physical Footprint: Designator=R44 Old Footprint=FP-MRS1600-MFG New Footprint=FP-MRS1600-MFG
+Change Physical Footprint: Designator=R45 Old Footprint=FP-MRS1600-MFG New Footprint=FP-MRS1600-MFG
+Change Physical Footprint: Designator=R46 Old Footprint=FP-MRS1600-MFG New Footprint=FP-MRS1600-MFG
+Change Physical Footprint: Designator=R47 Old Footprint=FP-MRS1600-MFG New Footprint=FP-MRS1600-MFG
+Change Physical Footprint: Designator=R48 Old Footprint=FP-MRS1600-MFG New Footprint=FP-MRS1600-MFG
+Change Physical Footprint: Designator=R49 Old Footprint=FP-MRS1600-MFG New Footprint=FP-MRS1600-MFG
+Change Physical Footprint: Designator=R50 Old Footprint=FP-MRS1600-MFG New Footprint=FP-MRS1600-MFG
+Change Physical Footprint: Designator=R51 Old Footprint=FP-MRS1600-MFG New Footprint=FP-MRS1600-MFG
+Change Physical Footprint: Designator=R52 Old Footprint=FP-MRS1600-MFG New Footprint=FP-MRS1600-MFG
+Change Physical Footprint: Designator=R53 Old Footprint=FP-MRS1600-MFG New Footprint=FP-MRS1600-MFG
+Change Physical Footprint: Designator=R54 Old Footprint=FP-MRS1600-MFG New Footprint=FP-MRS1600-MFG
+Change Physical Footprint: Designator=R55 Old Footprint=FP-MRS1600-MFG New Footprint=FP-MRS1600-MFG
+Change Physical Footprint: Designator=R56 Old Footprint=FP-MRS1600-MFG New Footprint=FP-MRS1600-MFG
+Change Physical Footprint: Designator=R57 Old Footprint=FP-MRS1600-MFG New Footprint=FP-MRS1600-MFG
+Change Physical Footprint: Designator=R58 Old Footprint=FP-MRS1600-MFG New Footprint=FP-MRS1600-MFG
+Change Physical Footprint: Designator=R59 Old Footprint=FP-MRS1600-MFG New Footprint=FP-MRS1600-MFG
+Change Physical Footprint: Designator=R60 Old Footprint=FP-MRS1600-MFG New Footprint=FP-MRS1600-MFG
+Change Physical Footprint: Designator=R61 Old Footprint=FP-MRS1600-MFG New Footprint=FP-MRS1600-MFG
+Change Physical Footprint: Designator=R62 Old Footprint=FP-MRS1600-MFG New Footprint=FP-MRS1600-MFG
+Change Physical Footprint: Designator=R63 Old Footprint=FP-MRS1600-MFG New Footprint=FP-MRS1600-MFG
+Change Physical Footprint: Designator=R64 Old Footprint=FP-MRS1600-MFG New Footprint=FP-MRS1600-MFG
+Change Physical Footprint: Designator=R65 Old Footprint=FP-MRS1600-MFG New Footprint=FP-MRS1600-MFG
+Change Physical Footprint: Designator=R66 Old Footprint=FP-MRS1600-MFG New Footprint=FP-MRS1600-MFG
+Change Physical Footprint: Designator=R67 Old Footprint=FP-MRS1600-MFG New Footprint=FP-MRS1600-MFG
+Change Physical Footprint: Designator=R68 Old Footprint=FP-MRS1600-MFG New Footprint=FP-MRS1600-MFG
+Change Physical Footprint: Designator=R69 Old Footprint=FP-MRS1600-MFG New Footprint=FP-MRS1600-MFG
+Change Physical Footprint: Designator=U1 Old Footprint=LED_LDSC512RI New Footprint=LED_LDSC512RI

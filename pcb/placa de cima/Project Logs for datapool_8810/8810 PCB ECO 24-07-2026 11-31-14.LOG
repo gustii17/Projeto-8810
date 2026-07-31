@@ -1,0 +1,47 @@
+Removed Pin From Net: NetName=chaveI Pin=inv3-10
+Removed Pin From Net: NetName=chaveI/ Pin=inv3-11
+Removed Pin From Net: NetName=chaveI/ Pin=inv3-12
+Removed Pin From Net: NetName=NetC15_1 Pin=inv3-13
+Removed Pin From Net: NetName=NetC16_1 Pin=inv4-1
+Removed Pin From Net: NetName=chaveJ/ Pin=inv4-2
+Removed Pin From Net: NetName=chaveJ/ Pin=inv4-3
+Removed Pin From Net: NetName=chaveJ Pin=inv4-4
+Added Component: Designator=inv4(N0014A)
+Add component (AddParameter): Name = "Bits(#)"; Value = "6"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Code_JEDEC"; Value = "MS-001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "SCLS085G"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "F @ Nom Voltage(Max)(Mhz)"; Value = "20"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Generic Part Number"; Value = "SN74HC14"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ICC @ Nom Voltage(Max)(mA)"; Value = "0.02"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Input Type"; Value = "CMOS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature Range(C)"; Value = "-40 to 85"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Output Drive (IOL/IOH)(Max)(mA)"; Value = "-4/4"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Output Type"; Value = "CMOS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "N0014A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rating"; Value = "Catalog"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Schmitt Trigger"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Technology Family"; Value = "HC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "tpd @ Nom Voltage(Max)(ns)"; Value = "31"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VCC(Max)(V)"; Value = "6"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VCC(Min)(V)"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage(Nom)(V)"; Value = "5"; VariantName = "[No Variations]"
+Add Pin To Net: Unknown Pin: Pin chavA1-com
+Add Pin To Net: Unknown Pin: Pin chavB1-com
+Add Pin To Net: Unknown Pin: Pin chavC1-com
+Add Pin To Net: Unknown Pin: Pin chavD1-com
+Add Pin To Net: Unknown Pin: Pin chavE1-com
+Add Pin To Net: Unknown Pin: Pin chavF1-com
+Add Pin To Net: Unknown Pin: Pin chavG1-com
+Add Pin To Net: Unknown Pin: Pin chavH1-com
+Add Pin To Net: Unknown Pin: Pin chavI1-com
+Add Pin To Net: Unknown Pin: Pin chavJ1-com
+Added Pin To Net: NetName=chaveI Pin=inv4-10
+Added Pin To Net: NetName=chaveJ Pin=inv4-10
+Added Pin To Net: NetName=chaveI/ Pin=inv4-11
+Added Pin To Net: NetName=chaveJ/ Pin=inv4-11
+Added Pin To Net: NetName=chaveI/ Pin=inv4-12
+Added Pin To Net: NetName=chaveJ/ Pin=inv4-12
+Added Pin To Net: NetName=NetC15_1 Pin=inv4-13
+Added Pin To Net: NetName=NetC16_1 Pin=inv4-13
+Added Member To Class: ClassName=chaves Member=Component inv4 SN74HC14N

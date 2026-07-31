@@ -1,0 +1,175 @@
+Change Component Designator: OldDesignator=-12V NewDesignator=H_-12V
+Change Component Designator: OldDesignator=+5V NewDesignator=H_5V
+Change Component Designator: OldDesignator=+12V NewDesignator=H_12V
+Change Component Designator: OldDesignator=A NewDesignator=chavA1
+Change Component Designator: OldDesignator=Arduino NewDesignator=nano1
+Change Component Designator: OldDesignator=B NewDesignator=chavB1
+Change Component Designator: OldDesignator=buffer NewDesignator=buffer1
+Change Component Designator: OldDesignator=C NewDesignator=chavC1
+Change Component Designator: OldDesignator=D NewDesignator=chavD1
+Change Component Designator: OldDesignator=E NewDesignator=chavE1
+Change Component Designator: OldDesignator=F NewDesignator=chavF1
+Change Component Designator: OldDesignator=G NewDesignator=chavG1
+Change Component Designator: OldDesignator=GND NewDesignator=H_gnd
+Change Component Designator: OldDesignator=H NewDesignator=chavH1
+Change Component Designator: OldDesignator=I NewDesignator=chavI1
+Change Component Designator: OldDesignator=J NewDesignator=chavJ1
+Change Component Designator: OldDesignator=L1 NewDesignator=LED1
+Change Component Designator: OldDesignator=L2 NewDesignator=LED2
+Change Component Designator: OldDesignator=L3 NewDesignator=LED3
+Change Component Designator: OldDesignator=L4 NewDesignator=LED4
+Change Component Designator: OldDesignator=L5 NewDesignator=LED5
+Change Component Designator: OldDesignator=L6 NewDesignator=LED6
+Change Component Designator: OldDesignator=L7 NewDesignator=LED7
+Change Component Designator: OldDesignator=L8 NewDesignator=LED8
+Change Component Designator: OldDesignator=L9 NewDesignator=LED9
+Change Component Designator: OldDesignator=L10 NewDesignator=LED10
+Change Component Designator: OldDesignator=p 5V NewDesignator=pin_5V
+Change Component Designator: OldDesignator=p 12V NewDesignator=pin_12V
+Change Component Designator: OldDesignator=p -12V NewDesignator=pin_-12V
+Change Component Designator: OldDesignator=p gnd NewDesignator=pin_gnd1
+Change Component Designator: OldDesignator=PONTA DE PROVA NewDesignator=U1
+Change Component Designator: OldDesignator=PROTOBOARD NewDesignator=P1
+Change Component Description : Designator=U1 Old Description=.56IN. 7 SEGMENT SINGLE DISPLAY, 565NM GREEN, GRAY FACE, WHITE SEGMENTS, COMMON New Description=.56IN. 7 SEGMENT SINGLE DISPLAY, 565NM GREEN, GRAY FACE, WHITE SEGMENTS, COMMON | Lumex LDS-C512RI
+Added Component: Designator=chave?(FP-7101SD9CQE-MFG)
+Add component (AddParameter): Name = "Actuator Length"; Value = "12.45mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Actuator Material"; Value = "Brass, Chrome"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Current Rating"; Value = "5A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Material"; Value = "Silver"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Plating"; Value = "Silver"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Resistance"; Value = "10mO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current Rating"; Value = "5A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Depth"; Value = "6.86mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Electrical Life"; Value = "100kcycles"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Housing Material"; Value = "Stainless Steel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Illumination Type"; Value = "Illuminated, Non-Illuminated"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lead Free"; Value = "Lead Free"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "12.7mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Life (Cycles)"; Value = "100kcycles"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Current Rating"; Value = "5A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "85°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Voltage Rating (AC)"; Value = "250V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Voltage Rating (DC)"; Value = "28V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-30°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Through Hole"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "NexarPartId"; Value = "55410166"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Orientation"; Value = "Straight"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Radiation Hardening"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "Compliant"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Switch Function"; Value = "On-On"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Termination"; Value = "PC Pins"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Throw Configuration"; Value = "SPDT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating (AC)"; Value = "120V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating (DC)"; Value = "28V"; VariantName = "[No Variations]"
+Added Member To Class: ClassName=clock Member=Component buffer1 SN74LS241N
+Added Member To Class: ClassName=alimentacao Member=Component C2 RCER71H335K3K1H03B
+Added Member To Class: ClassName=alimentacao Member=Component C3 RCER71H335K3K1H03B
+Added Member To Class: ClassName=alimentacao Member=Component C4 EEU-FM1H101BJ
+Added Member To Class: ClassName=alimentacao Member=Component C5 EEU-FM1H101BJ
+Added Member To Class: ClassName=alimentacao Member=Component C6 RCER71H335K3K1H03B
+Added Member To Class: ClassName=chaves Member=Component C7 RCER71H335K3K1H03B
+Added Member To Class: ClassName=chaves Member=Component C8 RCER71H335K3K1H03B
+Added Member To Class: ClassName=chaves Member=Component C9 RCER71H335K3K1H03B
+Added Member To Class: ClassName=chaves Member=Component C10 RCER71H335K3K1H03B
+Added Member To Class: ClassName=chaves Member=Component C11 RCER71H335K3K1H03B
+Added Member To Class: ClassName=chaves Member=Component chavA1 chave MTS-102
+Added Member To Class: ClassName=chaves Member=Component chavB1 chave MTS-102
+Added Member To Class: ClassName=chaves Member=Component chavC1 chave MTS-102
+Added Member To Class: ClassName=chaves Member=Component chavD1 chave MTS-102
+Added Member To Class: ClassName=chaves Member=Component chavE1 chave MTS-102
+Added Member To Class: ClassName=chaves Member=Component chave? 7101SD9CQE
+Added Member To Class: ClassName=chaves Member=Component chavF1 chave MTS-102
+Added Member To Class: ClassName=chaves Member=Component chavG1 chave MTS-102
+Added Member To Class: ClassName=chaves Member=Component chavH1 chave MTS-102
+Added Member To Class: ClassName=chaves Member=Component chavI1 chave MTS-102
+Added Member To Class: ClassName=probe Member=Component divi1 CD74HC390E
+Added Member To Class: ClassName=alimentacao Member=Component H_5V header 2x4
+Added Member To Class: ClassName=alimentacao Member=Component H_12V header 2x4
+Added Member To Class: ClassName=alimentacao Member=Component H_-12V header 2x4
+Added Member To Class: ClassName=alimentacao Member=Component H_gnd header 2x4
+Added Member To Class: ClassName=clock Member=Component Hclk1 header 2x4
+Added Member To Class: ClassName=clock Member=Component Hclk2 header 2x4
+Added Member To Class: ClassName=chaves Member=Component inv2 SN74HC14N
+Added Member To Class: ClassName=chaves Member=Component inv3 SN74HC14N
+Added Member To Class: ClassName=chaves Member=Component inv4 SN74HC14N
+Added Member To Class: ClassName=leds Member=Component LED1 WP7113SGD
+Added Member To Class: ClassName=leds Member=Component LED2 WP7113SGD
+Added Member To Class: ClassName=leds Member=Component LED3 WP7113SGD
+Added Member To Class: ClassName=leds Member=Component LED4 WP7113SGD
+Added Member To Class: ClassName=leds Member=Component LED5 WP7113SGD
+Added Member To Class: ClassName=leds Member=Component LED6 WP7113SGD
+Added Member To Class: ClassName=leds Member=Component LED7 WP7113SGD
+Added Member To Class: ClassName=leds Member=Component LED8 WP7113SGD
+Added Member To Class: ClassName=leds Member=Component LED9 WP7113SGD
+Added Member To Class: ClassName=leds Member=Component LED10 WP7113SGD
+Added Member To Class: ClassName=probe Member=Component lm1 LM339J
+Added Member To Class: ClassName=leds Member=Component lm2 LM339J
+Added Member To Class: ClassName=leds Member=Component lm3 LM339J
+Added Member To Class: ClassName=leds Member=Component lm4 LM339J
+Added Member To Class: ClassName=clock Member=Component nano1 A000005
+Added Member To Class: ClassName=protoboard Member=Component P1 2 protoboard 830 pin
+Added Member To Class: ClassName=alimentacao Member=Component pin_5V TSW-101-07-L-S
+Added Member To Class: ClassName=alimentacao Member=Component pin_12V TSW-101-07-L-S
+Added Member To Class: ClassName=alimentacao Member=Component pin_-12V TSW-101-07-L-S
+Added Member To Class: ClassName=alimentacao Member=Component pin_gnd1 TSW-101-07-L-S
+Added Member To Class: ClassName=probe Member=Component pot1 3296W-1-501LF
+Added Member To Class: ClassName=probe Member=Component pot2 3296W-1-501LF
+Added Member To Class: ClassName=probe Member=Component pot3 3296W-1-501LF
+Added Member To Class: ClassName=probe Member=Component pot4 3296W-1-501LF
+Added Member To Class: ClassName=probe Member=Component pot5 3296W-1-501LF
+Added Member To Class: ClassName=chaves Member=Component R1 MRS16000C2002FCT00
+Added Member To Class: ClassName=chaves Member=Component R2 MRS16000C2002FCT00
+Added Member To Class: ClassName=chaves Member=Component R3 MRS16000C2002FCT00
+Added Member To Class: ClassName=chaves Member=Component R4 MRS16000C2002FCT00
+Added Member To Class: ClassName=chaves Member=Component R5 MRS16000C2002FCT00
+Added Member To Class: ClassName=chaves Member=Component R6 MRS16000C2002FCT00
+Added Member To Class: ClassName=chaves Member=Component R7 MRS16000C2002FCT00
+Added Member To Class: ClassName=chaves Member=Component R8 MRS16000C2002FCT00
+Added Member To Class: ClassName=chaves Member=Component R9 MRS16000C2002FCT00
+Added Member To Class: ClassName=chaves Member=Component R10 MRS16000C2002FCT00
+Added Member To Class: ClassName=chaves Member=Component R11 MRS16000C2002FCT00
+Added Member To Class: ClassName=chaves Member=Component R12 MRS16000C2002FCT00
+Added Member To Class: ClassName=chaves Member=Component R13 MRS16000C2002FCT00
+Added Member To Class: ClassName=chaves Member=Component R14 MRS16000C2002FCT00
+Added Member To Class: ClassName=chaves Member=Component R15 MRS16000C2002FCT00
+Added Member To Class: ClassName=chaves Member=Component R16 MRS16000C2002FCT00
+Added Member To Class: ClassName=chaves Member=Component R17 MRS16000C2002FCT00
+Added Member To Class: ClassName=chaves Member=Component R20 MRS16000C2002FCT00
+Added Member To Class: ClassName=chaves Member=Component R21 MRS16000C2002FCT00
+Added Member To Class: ClassName=chaves Member=Component R22 MRS16000C2002FCT00
+Added Member To Class: ClassName=chaves Member=Component R23 MRS16000C2002FCT00
+Added Member To Class: ClassName=chaves Member=Component R24 MRS16000C2002FCT00
+Added Member To Class: ClassName=chaves Member=Component R25 MRS16000C2002FCT00
+Added Member To Class: ClassName=chaves Member=Component R26 MRS16000C2002FCT00
+Added Member To Class: ClassName=chaves Member=Component R27 MRS16000C2002FCT00
+Added Member To Class: ClassName=chaves Member=Component R28 MRS16000C2002FCT00
+Added Member To Class: ClassName=chaves Member=Component R29 MRS16000C2002FCT00
+Added Member To Class: ClassName=chaves Member=Component R30 MRS16000C2002FCT00
+Added Member To Class: ClassName=chaves Member=Component R31 MRS16000C2002FCT00
+Added Member To Class: ClassName=chaves Member=Component R32 MRS16000C2002FCT00
+Added Member To Class: ClassName=chaves Member=Component R33 MRS16000C2002FCT00
+Added Member To Class: ClassName=chaves Member=Component R34 MRS16000C2002FCT00
+Added Member To Class: ClassName=chaves Member=Component R35 MRS16000C2002FCT00
+Added Member To Class: ClassName=chaves Member=Component R36 MRS16000C2002FCT00
+Added Member To Class: ClassName=chaves Member=Component R37 MRS16000C2002FCT00
+Added Member To Class: ClassName=chaves Member=Component R38 MRS16000C2002FCT00
+Added Member To Class: ClassName=chaves Member=Component R39 MRS16000C2002FCT00
+Added Member To Class: ClassName=chaves Member=Component R40 MRS16000C2002FCT00
+Added Member To Class: ClassName=probe Member=Component R41 MRS16000C2002FCT00
+Added Member To Class: ClassName=probe Member=Component R42 MRS16000C2002FCT00
+Added Member To Class: ClassName=probe Member=Component R43 MRS16000C2002FCT00
+Added Member To Class: ClassName=probe Member=Component R44 MRS16000C2002FCT00
+Added Member To Class: ClassName=probe Member=Component R45 MRS16000C2002FCT00
+Added Member To Class: ClassName=probe Member=Component R46 MRS16000C2002FCT00
+Added Member To Class: ClassName=probe Member=Component R47 MRS16000C2002FCT00
+Added Member To Class: ClassName=leds Member=Component R48 MRS16000C2002FCT00
+Added Member To Class: ClassName=leds Member=Component R49 MRS16000C2002FCT00
+Added Member To Class: ClassName=leds Member=Component R50 MRS16000C2002FCT00
+Added Member To Class: ClassName=leds Member=Component R51 MRS16000C2002FCT00
+Added Member To Class: ClassName=leds Member=Component R52 MRS16000C2002FCT00
+Added Member To Class: ClassName=leds Member=Component R53 MRS16000C2002FCT00
+Added Member To Class: ClassName=leds Member=Component R54 MRS16000C2002FCT00
+Added Member To Class: ClassName=leds Member=Component R55 MRS16000C2002FCT00
+Added Member To Class: ClassName=leds Member=Component R56 MRS16000C2002FCT00
+Added Member To Class: ClassName=leds Member=Component R57 MRS16000C2002FCT00
+Added Member To Class: ClassName=leds Member=Component R58 MRS16000C2002FCT00
