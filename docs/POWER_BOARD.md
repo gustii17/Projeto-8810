@@ -1,6 +1,6 @@
 # Placa de Energia do Projeto 8810
 
-![Imagem da PCB](/power-supply-board/power-supply-pcb.png)
+![Imagem da PCB](/assets/power-board-pcb.png)
 
 ## Objetivo
 O objetivo da PCB (Placa de circuito impresso) de Energia que ficará dentro do módulo de eletrônica digital desenvolvido é fornecer energia estável para a PCB de cima do módulo, na qual estão localizados a lógica e os componentes que são responsáveis pelas funcionalidades do módulo, além daqueles componentes eletrônicos utilizados pelos próprios usuários.

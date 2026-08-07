@@ -502,7 +502,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "digital-power-supply.kicad_pro",
+    "filename": "power-board.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -538,7 +538,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "/home/arthur/downloads/",
       "specctra_dsn": "",
       "step": "digital-power-supply.step",
       "vrml": ""
@@ -666,8 +666,8 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "digital-power-supply.kicad_sch",
-        "name": "Root",
+        "filename": "power-board.kicad_sch",
+        "name": "power-board",
         "uuid": "76a99488-02db-4061-8b77-793475fd359a"
       }
     ],
