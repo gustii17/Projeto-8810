@@ -1,6 +1,10 @@
 # Projeto 8810
 `Projeto 8810 - Módulo Didático de Eletrônica Digital`
 
+<h1 align="center">
+  <img src="assets/cad-model.png" width="640">
+</h1>
+
 ## Sumário 📋
  - [Objetivo](#objective)
  - [Motivação](#motivation)
@@ -41,7 +45,7 @@ O projeto está dividido em basicamente 3 subprojetos, os quais são:
 ## Licença 📝
 O Projeto está licenciado sobre algumas licenças da seguinte forma:
  - Todos os arquivos dentro de [cad/](/cad) estão licenciadas sobre a licença [CC By 4.0](/licenses/CC-BY-4.0.txt).
- - Todos os arquivos dentro de [schematics/power-board/](/schematics/power-board) estão licenciadas sobre a licença [CERN OHL P](/licenses/CERN-OHL-P..txt).
+ - Todos os arquivos dentro de [schematics/power-board/](/schematics/power-board) estão licenciadas sobre a licença [CERN OHL P](/licenses/CERN-OHL-P.txt).
  - Todos os arquivos dentro de [firmware/](/firmware) estão licenciados sobre a licença [...]()
  - Todos os arquivos dentro de [schematics/logic-board/](/schematics/logic-board) estão licenciadas sobre a licença [...]()
  - Todos os demais arquivos estão sobre a licença [CC0](/licenses/CC0.txt).
