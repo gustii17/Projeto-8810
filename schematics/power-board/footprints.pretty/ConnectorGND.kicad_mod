@@ -8,7 +8,7 @@
 		(unlocked yes)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "024cd9b0-fb33-496a-9e66-c66bc979212b")
+		(uuid "962fe4ca-497b-43b2-ab25-f89cf6a06b85")
 		(effects
 			(font
 				(size 1 1)
@@ -20,7 +20,7 @@
 		(at 0.095188 2.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "bd7a99e3-0913-4ee0-b25f-cd582d37167c")
+		(uuid "2720be2f-dba5-4a56-9b6f-44bf219fd3eb")
 		(effects
 			(font
 				(size 1 1)
@@ -33,7 +33,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "7d8fe326-c9b2-4fe1-90a0-adf5022d9743")
+		(uuid "c26510dd-a50f-4566-8f76-544aa80e6c00")
 		(effects
 			(font
 				(size 1 1)
@@ -46,7 +46,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "7fd89046-ba40-4d4b-aba2-896ea9524b4b")
+		(uuid "9dd951ff-0d9c-45c6-b0f8-a9d2d5b42bcc")
 		(effects
 			(font
 				(size 1 1)
@@ -62,7 +62,7 @@
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "3ff4ed86-f0fd-422e-820c-2b7d854e90ec")
+		(uuid "780ee62d-565b-462b-a572-4f2255440006")
 	)
 	(zone
 		(layers "F.Cu" "B.Cu" "In1.Cu" "F.SilkS" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu"
@@ -71,7 +71,7 @@
 			"In21.Cu" "In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu"
 			"In28.Cu" "In29.Cu" "In30.Cu"
 		)
-		(uuid "6a5ec481-fc82-4737-ac13-900dfa1fe950")
+		(uuid "665e6b50-45e0-46a0-a971-d93a8dee2e13")
 		(hatch edge 0.5)
 		(connect_pads
 			(clearance 0)

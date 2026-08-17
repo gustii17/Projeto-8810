@@ -8,7 +8,7 @@
 		(unlocked yes)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "83151de3-65f3-4b31-b92d-827dca847c99")
+		(uuid "b73ccd34-cf79-4a50-b565-03d05a16a991")
 		(effects
 			(font
 				(size 1 1)
@@ -20,7 +20,7 @@
 		(at 0.095188 2.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "5916e5f1-3e5e-4d3c-9df8-b599c4c7cd1f")
+		(uuid "49231ccc-4922-4f67-959b-b0b80e67c6cc")
 		(effects
 			(font
 				(size 1 1)
@@ -33,7 +33,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "778fe329-5697-4ae5-a88e-ac4bcc84df6c")
+		(uuid "2e5e504e-6eb9-432b-a9e8-6892a5bd290a")
 		(effects
 			(font
 				(size 1 1)
@@ -46,7 +46,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "babd0406-1d20-4186-9c7c-bf1856926581")
+		(uuid "303faf4a-274e-44dd-ac85-5c28da5b5862")
 		(effects
 			(font
 				(size 1 1)
@@ -58,29 +58,24 @@
 	(duplicate_pad_numbers_are_jumpers no)
 	(pad "1" thru_hole circle
 		(at 0 0)
-		(size 2 2)
+		(size 3 3)
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "ab22b9d0-1d45-4777-b3a3-ff017735825e")
+		(uuid "6c519087-8678-4783-bbcc-90985d5cb157")
 	)
 	(zone
-		(layers "F.Cu" "B.Cu" "In1.Cu" "F.SilkS" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu"
-			"In6.Cu" "In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu"
-			"In14.Cu" "In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu"
-			"In21.Cu" "In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu"
-			"In28.Cu" "In29.Cu" "In30.Cu"
-		)
-		(uuid "f4bc3cb3-97d6-48f3-8a08-ccc61bac2222")
+		(layers "F.Cu" "B.Cu" "F.SilkS")
+		(uuid "3d587b76-bd60-4816-b811-12d8015550d4")
 		(hatch edge 0.5)
 		(connect_pads
 			(clearance 0)
 		)
 		(min_thickness 0.25)
 		(keepout
-			(tracks allowed)
-			(vias allowed)
-			(pads allowed)
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
 			(copperpour not_allowed)
 			(footprints allowed)
 		)
@@ -96,9 +91,9 @@
 		(polygon
 			(pts
 				(arc
-					(start -2 0)
-					(mid 2 0)
-					(end -2 0)
+					(start -2.5 0)
+					(mid 2.5 0)
+					(end -2.5 0)
 				)
 			)
 		)
