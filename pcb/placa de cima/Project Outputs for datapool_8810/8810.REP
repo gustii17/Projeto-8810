@@ -2,8 +2,207 @@
 FileName = 8810.GBR
 AutoAperture = True
 *************************************************************
-Generating : Bottom Layer
-      File : 8810.GBL
+Generating : Dielectric 1
+      File : 8810.1
+
+    Adding Layer      : Dielectric 1
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Multi-Layer
+      File : 8810.GML
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D23
+    D24
+    D25
+    D26
+    D27
+    D28
+    D33
+    D34
+    D35
+    D36
+    D37
+    D40
+    D41
+    D47
+    D48
+    D49
+    D50
+    D51
+    D52
+    D53
+    D54
+    D55
+    D56
+    D57
+    D59
+    D60
+    D61
+*************************************************************
+
+*************************************************************
+Generating : Bottom Component Center
+      File : 8810.GM24
+
+    Adding Layer      : Bottom Component Center
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Bottom 3D Body
+      File : 8810.GM23
+
+    Adding Layer      : Bottom 3D Body
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Bottom Courtyard
+      File : 8810.GM21
+
+    Adding Layer      : Bottom Courtyard
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Bottom Assembly
+      File : 8810.GM20
+
+    Adding Layer      : Bottom Assembly
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Top Component Center
+      File : 8810.GM16
+
+    Adding Layer      : Top Component Center
+
+
+Used DCodes :
+    D65
+*************************************************************
+
+*************************************************************
+Generating : Top Courtyard
+      File : 8810.GM15
+
+    Adding Layer      : Top Courtyard
+
+
+Used DCodes :
+    D12
+    D65
+    D66
+*************************************************************
+
+*************************************************************
+Generating : Top 3D Body
+      File : 8810.GM13
+
+    Adding Layer      : Top 3D Body
+
+
+Used DCodes :
+    D12
+    D13
+    D16
+    D65
+*************************************************************
+
+*************************************************************
+Generating : Bottom Component Outline
+      File : 8810.GM12
+
+    Adding Layer      : Bottom Component Outline
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Top Component Outline
+      File : 8810.GM11
+
+    Adding Layer      : Top Component Outline
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Top Assembly
+      File : 8810.GM5
+
+    Adding Layer      : Top Assembly
+
+
+Used DCodes :
+    D12
+*************************************************************
+
+*************************************************************
+Generating : Bottom Designator
+      File : 8810.GM4
+
+    Adding Layer      : Bottom Designator
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Top Designator
+      File : 8810.GM3
+
+    Adding Layer      : Top Designator
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Board Outline
+      File : 8810.GM1
+
+    Adding Layer      : Board Outline
+
+
+Used DCodes :
+    D15
+*************************************************************
+
+*************************************************************
+Generating : Keep-Out Layer
+      File : 8810.GKO
+
+    Adding Layer      : Keep-Out Layer
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Bottom Paste
+      File : 8810.GBP
+
+    Adding Layer      : Bottom Paste
 
     Adding Layer      : Bottom Layer
 
@@ -11,44 +210,13 @@ Generating : Bottom Layer
 
 
 Used DCodes :
-    D15
-    D17
-    D18
-    D19
-    D20
-    D23
-    D24
-    D25
-    D26
-    D29
-    D30
-    D36
-    D37
-    D44
-    D45
-    D46
-    D47
-    D48
-    D49
-    D50
-    D51
-    D52
-    D53
-    D54
-    D55
-    D56
-    D57
-    D58
-    D59
-    D60
-    D61
-    D62
-    D63
 *************************************************************
 
 *************************************************************
-Generating : Top Layer
-      File : 8810.GTL
+Generating : Top Paste
+      File : 8810.GTP
+
+    Adding Layer      : Top Paste
 
     Adding Layer      : Top Layer
 
@@ -56,87 +224,6 @@ Generating : Top Layer
 
 
 Used DCodes :
-    D15
-    D17
-    D18
-    D19
-    D20
-    D23
-    D24
-    D25
-    D26
-    D29
-    D30
-    D36
-    D37
-    D44
-    D45
-    D46
-    D47
-    D48
-    D49
-    D50
-    D51
-    D52
-    D53
-    D54
-    D55
-    D56
-    D57
-    D58
-    D59
-    D60
-*************************************************************
-
-*************************************************************
-Generating : Bottom Overlay
-      File : 8810.GBO
-
-    Adding Layer      : Bottom Overlay
-
-
-Used DCodes :
-*************************************************************
-
-*************************************************************
-Generating : Top Solder
-      File : 8810.GTS
-
-    Adding Layer      : Top Solder
-
-    Adding Layer      : Top Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D17
-    D18
-    D19
-    D20
-    D21
-    D22
-    D23
-    D24
-    D25
-    D26
-    D27
-    D28
-    D29
-    D30
-    D31
-    D32
-    D33
-    D34
-    D35
-    D36
-    D37
-    D38
-    D39
-    D40
-    D41
-    D42
-    D43
 *************************************************************
 
 *************************************************************
@@ -178,13 +265,14 @@ Used DCodes :
     D41
     D42
     D43
+    D44
 *************************************************************
 
 *************************************************************
-Generating : Top Paste
-      File : 8810.GTP
+Generating : Top Solder
+      File : 8810.GTS
 
-    Adding Layer      : Top Paste
+    Adding Layer      : Top Solder
 
     Adding Layer      : Top Layer
 
@@ -192,107 +280,44 @@ Generating : Top Paste
 
 
 Used DCodes :
+    D17
+    D18
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+    D25
+    D26
+    D27
+    D28
+    D29
+    D30
+    D31
+    D32
+    D33
+    D34
+    D35
+    D36
+    D37
+    D38
+    D39
+    D40
+    D41
+    D42
+    D43
+    D44
 *************************************************************
 
 *************************************************************
-Generating : Bottom Paste
-      File : 8810.GBP
+Generating : Bottom Overlay
+      File : 8810.GBO
 
-    Adding Layer      : Bottom Paste
-
-    Adding Layer      : Bottom Layer
-
-    Adding Layer      : Multi-Layer
+    Adding Layer      : Bottom Overlay
 
 
 Used DCodes :
-*************************************************************
-
-*************************************************************
-Generating : Keep-Out Layer
-      File : 8810.GKO
-
-    Adding Layer      : Keep-Out Layer
-
-
-Used DCodes :
-*************************************************************
-
-*************************************************************
-Generating : Board Outline
-      File : 8810.GM1
-
-    Adding Layer      : Board Outline
-
-
-Used DCodes :
-    D14
-    D15
-*************************************************************
-
-*************************************************************
-Generating : Top Designator
-      File : 8810.GM3
-
-    Adding Layer      : Top Designator
-
-
-Used DCodes :
-*************************************************************
-
-*************************************************************
-Generating : Bottom Designator
-      File : 8810.GM4
-
-    Adding Layer      : Bottom Designator
-
-
-Used DCodes :
-*************************************************************
-
-*************************************************************
-Generating : Top Assembly
-      File : 8810.GM5
-
-    Adding Layer      : Top Assembly
-
-
-Used DCodes :
-    D11
-*************************************************************
-
-*************************************************************
-Generating : Top Component Outline
-      File : 8810.GM11
-
-    Adding Layer      : Top Component Outline
-
-
-Used DCodes :
-*************************************************************
-
-*************************************************************
-Generating : Bottom Component Outline
-      File : 8810.GM12
-
-    Adding Layer      : Bottom Component Outline
-
-
-Used DCodes :
-*************************************************************
-
-*************************************************************
-Generating : Top 3D Body
-      File : 8810.GM13
-
-    Adding Layer      : Top 3D Body
-
-
-Used DCodes :
-    D11
-    D14
-    D16
-    D64
 *************************************************************
 
 *************************************************************
@@ -313,37 +338,28 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Top Component Center
-      File : 8810.GM16
+Generating : Top Pad Master
+      File : 8810.GPT
 
-    Adding Layer      : Top Component Center
-
-
-Used DCodes :
-    D64
-*************************************************************
-
-*************************************************************
-Generating : Multi-Layer
-      File : 8810.GML
+    Adding Layer      : Top Layer
 
     Adding Layer      : Multi-Layer
 
 
 Used DCodes :
-    D17
-    D18
-    D19
-    D20
     D23
     D24
     D25
     D26
-    D29
-    D30
+    D27
+    D28
+    D33
+    D34
+    D35
     D36
     D37
-    D46
+    D40
+    D41
     D47
     D48
     D49
@@ -351,42 +367,14 @@ Used DCodes :
     D51
     D52
     D53
+    D54
     D55
     D56
     D57
     D58
     D59
     D60
-*************************************************************
-
-*************************************************************
-Generating : Bottom Assembly
-      File : 8810.GM20
-
-    Adding Layer      : Bottom Assembly
-
-
-Used DCodes :
-*************************************************************
-
-*************************************************************
-Generating : Bottom Component Center
-      File : 8810.GM24
-
-    Adding Layer      : Bottom Component Center
-
-
-Used DCodes :
-*************************************************************
-
-*************************************************************
-Generating : Bottom Courtyard
-      File : 8810.GM21
-
-    Adding Layer      : Bottom Courtyard
-
-
-Used DCodes :
+    D61
 *************************************************************
 
 *************************************************************
@@ -399,18 +387,61 @@ Generating : Bottom Pad Master
 
 
 Used DCodes :
-    D17
-    D18
-    D19
-    D20
     D23
     D24
     D25
     D26
-    D29
-    D30
+    D27
+    D28
+    D33
+    D34
+    D35
     D36
     D37
+    D40
+    D41
+    D47
+    D48
+    D49
+    D50
+    D51
+    D52
+    D53
+    D54
+    D55
+    D56
+    D57
+    D58
+    D59
+    D60
+    D61
+*************************************************************
+
+*************************************************************
+Generating : Bottom Layer
+      File : 8810.GBL
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D15
+    D23
+    D24
+    D25
+    D26
+    D27
+    D28
+    D33
+    D34
+    D35
+    D36
+    D37
+    D40
+    D41
+    D45
     D46
     D47
     D48
@@ -426,24 +457,15 @@ Used DCodes :
     D58
     D59
     D60
-*************************************************************
-
-*************************************************************
-Generating : Top Courtyard
-      File : 8810.GM15
-
-    Adding Layer      : Top Courtyard
-
-
-Used DCodes :
-    D11
+    D61
+    D62
+    D63
     D64
-    D65
 *************************************************************
 
 *************************************************************
-Generating : Top Pad Master
-      File : 8810.GPT
+Generating : Top Layer
+      File : 8810.GTL
 
     Adding Layer      : Top Layer
 
@@ -451,18 +473,21 @@ Generating : Top Pad Master
 
 
 Used DCodes :
-    D17
-    D18
-    D19
-    D20
+    D15
     D23
     D24
     D25
     D26
-    D29
-    D30
+    D27
+    D28
+    D33
+    D34
+    D35
     D36
     D37
+    D40
+    D41
+    D45
     D46
     D47
     D48
@@ -478,26 +503,7 @@ Used DCodes :
     D58
     D59
     D60
-*************************************************************
-
-*************************************************************
-Generating : Bottom 3D Body
-      File : 8810.GM23
-
-    Adding Layer      : Bottom 3D Body
-
-
-Used DCodes :
-*************************************************************
-
-*************************************************************
-Generating : Dielectric 1
-      File : 8810.1
-
-    Adding Layer      : Dielectric 1
-
-
-Used DCodes :
+    D61
 *************************************************************
 
 *************************************************************
@@ -511,7 +517,7 @@ Generating : Drill Drawing
 
 Used DCodes :
     D16
-    D66
+    D67
 *************************************************************
 
 *************************************************************
@@ -533,6 +539,6 @@ Generating : Profile
 
 
 Used DCodes :
-    D67
+    D68
 *************************************************************
 

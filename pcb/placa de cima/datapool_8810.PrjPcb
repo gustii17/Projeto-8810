@@ -305,7 +305,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document16]
-DocumentPath=..\exports\Nova pasta\CAMtastic_gerber.Cam
+DocumentPath=..\exports\visualização\CAMtastic1_nc.Cam
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -322,7 +322,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document17]
-DocumentPath=..\exports\visualization\CAMtastic_nc.Cam
+DocumentPath=..\exports\visualização\CAMtastic1_gerber.Cam
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
