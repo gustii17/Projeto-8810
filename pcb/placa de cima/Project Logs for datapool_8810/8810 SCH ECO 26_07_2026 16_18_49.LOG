@@ -1,2 +1,0 @@
-Remove Pin=nano1-5 From Net=pin_Freq
-Add Pin To Net: Pin=nano1-5 Old Net=pin_Freq New Net=segG

@@ -1,0 +1,117 @@
+(footprint "USBC_Module"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.5 -1 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "e73f91ce-c5ce-4a8b-a86f-d412f41cc82c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "USBC_Module"
+		(at 0.5 6.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "31fa2abb-fddc-4127-b50b-112af2f6b921")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5d19c88a-dab7-442c-bf36-5e3a6c20563b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "da8c606d-7d7d-43fd-8275-e4bc6e25b8e7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -1.75 -5.25)
+		(end 1.75 4.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "f5c89334-5aa1-401c-9cc1-f08e05c18781")
+	)
+	(pad "0" thru_hole circle
+		(at 0 3)
+		(size 2.5 2.5)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d667418e-71f9-4b34-92a9-109450968778")
+	)
+	(pad "1" thru_hole circle
+		(at 0 -3)
+		(size 2.5 2.5)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "06c62d34-7597-43d6-9150-ca0b170cfa4d")
+	)
+	(zone
+		(layers "F.Cu" "B.Cu" "F.SilkS")
+		(uuid "da0e506b-b843-433f-aac6-70bc190f00b3")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
+		)
+		(polygon
+			(pts
+				(xy -1.75 -5.25) (xy 1.75 -5.25) (xy 1.75 -0.25) (xy -1.75 -0.25)
+			)
+		)
+	)
+	(embedded_fonts no)
+)

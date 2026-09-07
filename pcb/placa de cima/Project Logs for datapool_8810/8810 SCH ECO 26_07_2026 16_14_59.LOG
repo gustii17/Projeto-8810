@@ -1,2 +1,0 @@
-Remove Pin=nano1-16 From Net=segE
-Add Pin To Net: Pin=nano1-16 Old Net=segE New Net=pin_F
