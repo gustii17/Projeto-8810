@@ -23,9 +23,9 @@ A disciplina de Eletrônica Digital é um componente fundamental na formação d
 <a id="project"></a>
 ## Projeto 🛠️
 O projeto está dividido em basicamente 3 subprojetos, os quais são:
- - A PCB da Placa de Cima, resposável pela lógica e funcionamento geral do módulo, junto com o código do microcontrolador.
+ - A PCB da Placa de Cima, resposável pela lógica e funcionamento geral do módulo, junto com o código do microcontrolador. _[Em Breve](./) mais informações_
  - A PCB da Placa de Baixo, resposável pelo fornecimento de eneriga. _[Clique Aqui](/docs/POWER-BOARD.md) para mais informações_
- - O Modelo 3D do módulo.
+ - O Modelo 3D do módulo. _[Em Breve](./) mais informações_
 
 <a id="files"></a>
 ## Arquivos 📂
