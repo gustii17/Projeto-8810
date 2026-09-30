@@ -13,3 +13,7 @@ schematics/**/_autosave-*
 *.kicad_pro-bak
 *.tmp
 *.lck
+
+# CAD Build files
+*.step
+*.3mf

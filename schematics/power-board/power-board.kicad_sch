@@ -471,7 +471,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:Polyfuse"
+		(symbol "Device:Fuse"
 			(pin_numbers
 				(hide yes)
 			)
@@ -484,7 +484,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "F"
-				(at -2.54 0 90)
+				(at 2.032 0 90)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -493,8 +493,8 @@
 					)
 				)
 			)
-			(property "Value" "Polyfuse"
-				(at 2.54 0 90)
+			(property "Value" "Fuse"
+				(at -1.905 0 90)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -504,7 +504,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at 1.27 -5.08 0)
+				(at -1.778 0 90)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -512,7 +512,6 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Datasheet" ""
@@ -526,7 +525,7 @@
 					)
 				)
 			)
-			(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
+			(property "Description" "Fuse"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -537,7 +536,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "resettable fuse PTC PPTC polyfuse polyswitch"
+			(property "ki_keywords" "fuse"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -548,7 +547,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "*polyfuse* *PTC*"
+			(property "ki_fp_filters" "*Fuse*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -559,22 +558,10 @@
 					)
 				)
 			)
-			(symbol "Polyfuse_0_1"
-				(polyline
-					(pts
-						(xy -1.524 2.54) (xy -1.524 1.524) (xy 1.524 -1.524) (xy 1.524 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
+			(symbol "Fuse_0_1"
 				(rectangle
-					(start -0.762 2.54)
-					(end 0.762 -2.54)
+					(start -0.762 -2.54)
+					(end 0.762 2.54)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -596,7 +583,7 @@
 					)
 				)
 			)
-			(symbol "Polyfuse_1_1"
+			(symbol "Fuse_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
@@ -1590,12 +1577,6 @@
 		)
 	)
 	(junction
-		(at 187.96 57.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5b9638e6-8c88-4b3f-b414-256ae6906bc5")
-	)
-	(junction
 		(at 191.77 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1759,7 +1740,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 57.15) (xy 204.47 57.15)
+			(xy 180.34 57.15) (xy 204.47 57.15)
 		)
 		(stroke
 			(width 0)
@@ -1826,16 +1807,6 @@
 			(type default)
 		)
 		(uuid "b538cbd3-5840-4583-a983-1728d917e353")
-	)
-	(wire
-		(pts
-			(xy 180.34 57.15) (xy 187.96 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d82a379a-e954-4c36-b192-667ea5f2f13e")
 	)
 	(wire
 		(pts
@@ -1985,90 +1956,9 @@
 			(uuid "ea136ee7-d11f-4dc5-a632-be286a6eaaf5")
 		)
 		(instances
-			(project "digital-power-supply"
+			(project "power-board"
 				(path "/76a99488-02db-4061-8b77-793475fd359a"
 					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Polyfuse")
-		(at 172.72 57.15 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0a0a418e-337e-4810-8549-af1dc0885312")
-		(property "Reference" "F1"
-			(at 172.72 50.8 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RXEF200 2A"
-			(at 172.72 53.34 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Fuse:Fuse_Bourns_MF-RG300"
-			(at 177.8 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" ""
-			(at 172.72 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
-			(at 172.72 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "63fb840d-0613-4ee4-b369-83b74b5119af")
-		)
-		(pin "2"
-			(uuid "cc1337a2-bee3-4492-9974-edc9617c3457")
-		)
-		(instances
-			(project "digital-power-supply"
-				(path "/76a99488-02db-4061-8b77-793475fd359a"
-					(reference "F1")
 					(unit 1)
 				)
 			)
@@ -2143,7 +2033,7 @@
 			(uuid "adacbfa8-0d7b-46f6-a539-7da5f15d888e")
 		)
 		(instances
-			(project "digital-power-supply"
+			(project "power-board"
 				(path "/76a99488-02db-4061-8b77-793475fd359a"
 					(reference "J3")
 					(unit 1)
@@ -2221,7 +2111,7 @@
 			(uuid "087407a0-5a70-4928-a503-d3b976ab2c3f")
 		)
 		(instances
-			(project "digital-power-supply"
+			(project "power-board"
 				(path "/76a99488-02db-4061-8b77-793475fd359a"
 					(reference "#PWR01")
 					(unit 1)
@@ -2303,7 +2193,7 @@
 			(uuid "d3360f8f-34c4-4f2c-b9b1-0fdc238caa45")
 		)
 		(instances
-			(project "digital-power-supply"
+			(project "power-board"
 				(path "/76a99488-02db-4061-8b77-793475fd359a"
 					(reference "U1")
 					(unit 1)
@@ -2382,7 +2272,7 @@
 			(uuid "ae766d63-4078-45b7-b65a-1c264a1b9970")
 		)
 		(instances
-			(project "digital-power-supply"
+			(project "power-board"
 				(path "/76a99488-02db-4061-8b77-793475fd359a"
 					(reference "J7")
 					(unit 1)
@@ -2424,7 +2314,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
 			(at 207.01 64.135 0)
 			(hide yes)
 			(show_name no)
@@ -2470,7 +2360,7 @@
 			(uuid "105078ab-0428-4849-9234-38b33b34ec5c")
 		)
 		(instances
-			(project "digital-power-supply"
+			(project "power-board"
 				(path "/76a99488-02db-4061-8b77-793475fd359a"
 					(reference "Q1")
 					(unit 1)
@@ -2548,7 +2438,7 @@
 			(uuid "6ae8401f-cb26-40dc-98c0-c5038373ed43")
 		)
 		(instances
-			(project "digital-power-supply"
+			(project "power-board"
 				(path "/76a99488-02db-4061-8b77-793475fd359a"
 					(reference "#PWR031")
 					(unit 1)
@@ -2625,7 +2515,7 @@
 			(uuid "98e61fc2-be43-43c8-9dd7-a2c397240ad1")
 		)
 		(instances
-			(project "digital-power-supply"
+			(project "power-board"
 				(path "/76a99488-02db-4061-8b77-793475fd359a"
 					(reference "J5")
 					(unit 1)
@@ -2634,8 +2524,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Polyfuse")
-		(at 173.99 110.49 90)
+		(lib_id "Device:Fuse")
+		(at 172.72 57.15 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2644,9 +2534,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "5e9af390-71d3-42bd-8b02-e32a2d24f1b1")
-		(property "Reference" "F3"
-			(at 173.99 104.14 90)
+		(uuid "5d9c6207-6422-4cd7-853d-36ff0d78da32")
+		(property "Reference" "F1"
+			(at 172.72 50.8 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2655,8 +2545,8 @@
 				)
 			)
 		)
-		(property "Value" "RXEF110 1A1"
-			(at 173.99 106.68 90)
+		(property "Value" "Fuse"
+			(at 172.72 53.34 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2665,8 +2555,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Fuse:Fuse_Bourns_MF-RG300"
-			(at 179.07 109.22 0)
+		(property "Footprint" "Fuse:Fuse_Bourns_MF-RHT200"
+			(at 172.72 58.928 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2674,11 +2564,10 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Datasheet" ""
-			(at 173.99 110.49 0)
+			(at 172.72 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2688,8 +2577,8 @@
 				)
 			)
 		)
-		(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
-			(at 173.99 110.49 0)
+		(property "Description" "Fuse"
+			(at 172.72 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2698,17 +2587,17 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "1"
-			(uuid "5aed584f-9816-49c2-85ad-9843bdf34cbf")
 		)
 		(pin "2"
-			(uuid "3958860a-3493-463e-a336-67e5a3506c9a")
+			(uuid "0599a367-0bac-4713-ac90-79d29208bb2e")
+		)
+		(pin "1"
+			(uuid "cd01493b-2f6f-4f4f-a2d7-5af5ce2c4cb2")
 		)
 		(instances
-			(project "digital-power-supply"
+			(project "power-board"
 				(path "/76a99488-02db-4061-8b77-793475fd359a"
-					(reference "F3")
+					(reference "F1")
 					(unit 1)
 				)
 			)
@@ -2789,7 +2678,7 @@
 			(uuid "ba8cb4d2-cc97-42b5-9f98-1ae4dbe897b8")
 		)
 		(instances
-			(project "digital-power-supply"
+			(project "power-board"
 				(path "/76a99488-02db-4061-8b77-793475fd359a"
 					(reference "SW1")
 					(unit 1)
@@ -2867,7 +2756,7 @@
 			(uuid "746ee2fe-3c9c-4b14-bb54-dc9946c79cb1")
 		)
 		(instances
-			(project "digital-power-supply"
+			(project "power-board"
 				(path "/76a99488-02db-4061-8b77-793475fd359a"
 					(reference "#PWR03")
 					(unit 1)
@@ -2949,7 +2838,7 @@
 			(uuid "1ef48e7b-a4ce-4747-acfd-ca147b1d3126")
 		)
 		(instances
-			(project "digital-power-supply"
+			(project "power-board"
 				(path "/76a99488-02db-4061-8b77-793475fd359a"
 					(reference "C4")
 					(unit 1)
@@ -3027,7 +2916,7 @@
 			(uuid "8861ef34-7676-40bd-a249-014a066ae544")
 		)
 		(instances
-			(project "digital-power-supply"
+			(project "power-board"
 				(path "/76a99488-02db-4061-8b77-793475fd359a"
 					(reference "#PWR033")
 					(unit 1)
@@ -3069,7 +2958,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-34_SOD68_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
 			(at 180.34 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -3109,7 +2998,7 @@
 			(uuid "88d69cd8-f5b4-4570-b438-45a1c4033b28")
 		)
 		(instances
-			(project "digital-power-supply"
+			(project "power-board"
 				(path "/76a99488-02db-4061-8b77-793475fd359a"
 					(reference "D1")
 					(unit 1)
@@ -3187,7 +3076,7 @@
 			(uuid "74255ee2-3bab-434e-b0f1-b518b6ebcfcb")
 		)
 		(instances
-			(project "digital-power-supply"
+			(project "power-board"
 				(path "/76a99488-02db-4061-8b77-793475fd359a"
 					(reference "#PWR02")
 					(unit 1)
@@ -3269,7 +3158,7 @@
 			(uuid "28e7538c-001b-4b82-9637-476580941967")
 		)
 		(instances
-			(project "digital-power-supply"
+			(project "power-board"
 				(path "/76a99488-02db-4061-8b77-793475fd359a"
 					(reference "C2")
 					(unit 1)
@@ -3348,7 +3237,7 @@
 			(uuid "c1992051-8d89-47e4-8dcc-8e2cc2057001")
 		)
 		(instances
-			(project "digital-power-supply"
+			(project "power-board"
 				(path "/76a99488-02db-4061-8b77-793475fd359a"
 					(reference "R2")
 					(unit 1)
@@ -3427,7 +3316,7 @@
 			(uuid "623e03cb-6d64-4b66-a581-68b104a34279")
 		)
 		(instances
-			(project "digital-power-supply"
+			(project "power-board"
 				(path "/76a99488-02db-4061-8b77-793475fd359a"
 					(reference "J8")
 					(unit 1)
@@ -3505,9 +3394,89 @@
 			(uuid "f4921038-fbdd-4d2e-a87c-d7ff2e7044ab")
 		)
 		(instances
-			(project "digital-power-supply"
+			(project "power-board"
 				(path "/76a99488-02db-4061-8b77-793475fd359a"
 					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Fuse")
+		(at 173.99 110.49 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a5e17721-a939-4910-b5bd-8a166b11b0a5")
+		(property "Reference" "F3"
+			(at 173.99 104.14 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Fuse"
+			(at 173.99 106.68 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Fuse:Fuse_Bourns_MF-RHT200"
+			(at 173.99 112.268 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Fuse"
+			(at 173.99 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "d95cca6f-7805-4040-b4e4-8070e022ba0c")
+		)
+		(pin "1"
+			(uuid "9665647b-e630-4237-9b35-fbe611fe1dc0")
+		)
+		(instances
+			(project "power-board"
+				(path "/76a99488-02db-4061-8b77-793475fd359a"
+					(reference "F3")
 					(unit 1)
 				)
 			)
@@ -3581,7 +3550,7 @@
 			(uuid "6fdae4ad-0e0c-4b39-bd68-f543687a0cfe")
 		)
 		(instances
-			(project "digital-power-supply"
+			(project "power-board"
 				(path "/76a99488-02db-4061-8b77-793475fd359a"
 					(reference "J1")
 					(unit 1)
@@ -3659,7 +3628,7 @@
 			(uuid "02e2b449-ef0b-4fe0-97f0-914294476d0b")
 		)
 		(instances
-			(project "digital-power-supply"
+			(project "power-board"
 				(path "/76a99488-02db-4061-8b77-793475fd359a"
 					(reference "#PWR032")
 					(unit 1)
@@ -3737,88 +3706,9 @@
 			(uuid "01ca9801-0f91-4472-a968-2f30011210b1")
 		)
 		(instances
-			(project "digital-power-supply"
+			(project "power-board"
 				(path "/76a99488-02db-4061-8b77-793475fd359a"
 					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Socket")
-		(at 187.96 52.07 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bf586e68-36df-468f-b508-588b1330a4e2")
-		(property "Reference" "J9"
-			(at 189.23 51.4349 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "5V"
-			(at 189.23 53.9749 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "footprints:Connector"
-			(at 187.96 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 187.96 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 187.96 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f38418a2-160c-456d-b536-dade6ac9b750")
-		)
-		(instances
-			(project "digital-power-supply"
-				(path "/76a99488-02db-4061-8b77-793475fd359a"
-					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -3857,7 +3747,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 179.324 68.326 90)
 			(hide yes)
 			(show_name no)
@@ -3897,90 +3787,9 @@
 			(uuid "50fac55e-2ab8-4dbe-810b-913bd3cf548a")
 		)
 		(instances
-			(project "digital-power-supply"
+			(project "power-board"
 				(path "/76a99488-02db-4061-8b77-793475fd359a"
 					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Polyfuse")
-		(at 173.99 99.06 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c2b057d8-0a91-41b8-bdca-f2456df2bf3d")
-		(property "Reference" "F2"
-			(at 173.99 92.71 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RXEF110 1A1"
-			(at 173.99 95.25 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Fuse:Fuse_Bourns_MF-RG300"
-			(at 179.07 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" ""
-			(at 173.99 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
-			(at 173.99 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3c93a82a-dfae-4826-b92e-3637df968fa5")
-		)
-		(pin "2"
-			(uuid "d7f94d92-d2e5-4262-8ce2-58ddd2b6ff1e")
-		)
-		(instances
-			(project "digital-power-supply"
-				(path "/76a99488-02db-4061-8b77-793475fd359a"
-					(reference "F2")
 					(unit 1)
 				)
 			)
@@ -4056,7 +3865,7 @@
 			(uuid "2372c1f8-f301-4d1f-948e-883a5034ea26")
 		)
 		(instances
-			(project "digital-power-supply"
+			(project "power-board"
 				(path "/76a99488-02db-4061-8b77-793475fd359a"
 					(reference "J6")
 					(unit 1)
@@ -4134,7 +3943,7 @@
 			(uuid "26343389-6ef4-46ef-a08d-78a2e78688e9")
 		)
 		(instances
-			(project "digital-power-supply"
+			(project "power-board"
 				(path "/76a99488-02db-4061-8b77-793475fd359a"
 					(reference "#PWR030")
 					(unit 1)
@@ -4220,7 +4029,7 @@
 			(uuid "49844ff0-3de6-441b-8281-1ee7497dd149")
 		)
 		(instances
-			(project "digital-power-supply"
+			(project "power-board"
 				(path "/76a99488-02db-4061-8b77-793475fd359a"
 					(reference "U2")
 					(unit 1)
@@ -4302,7 +4111,7 @@
 			(uuid "6f9a98d8-3adc-44b9-a2d2-71036795ddd4")
 		)
 		(instances
-			(project "digital-power-supply"
+			(project "power-board"
 				(path "/76a99488-02db-4061-8b77-793475fd359a"
 					(reference "C1")
 					(unit 1)
@@ -4388,9 +4197,89 @@
 			(uuid "3fd24ca5-09da-4222-828b-82f57968cf2b")
 		)
 		(instances
-			(project "digital-power-supply"
+			(project "power-board"
 				(path "/76a99488-02db-4061-8b77-793475fd359a"
 					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Fuse")
+		(at 173.99 99.06 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ed295cb5-5df8-459d-aa93-31a60fd72488")
+		(property "Reference" "F2"
+			(at 173.99 92.71 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Fuse"
+			(at 173.99 95.25 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Fuse:Fuse_Bourns_MF-RHT200"
+			(at 173.99 100.838 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Fuse"
+			(at 173.99 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e5c20abb-36c9-4202-91bf-bf5fb3b8edfe")
+		)
+		(pin "1"
+			(uuid "580a2ea7-bcc2-41e0-ae35-626ea41b766f")
+		)
+		(instances
+			(project "power-board"
+				(path "/76a99488-02db-4061-8b77-793475fd359a"
+					(reference "F2")
 					(unit 1)
 				)
 			)

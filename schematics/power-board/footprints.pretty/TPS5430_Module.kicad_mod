@@ -7,7 +7,7 @@
 		(at 0 -0.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "8673bfaa-9c03-4a20-aac1-f3632c771cb3")
+		(uuid "7d429fa5-e513-4ded-8b54-aa6bd9c1d36d")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "08f19cd9-952e-4407-9c90-ccd5661a59ab")
+		(uuid "1ed1fd65-c4cf-4656-abe4-f0436ccb5510")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "2fc49a64-c110-4230-b82c-a6eee525c964")
+		(uuid "5e2793ef-82dc-47dd-8939-89f0c07ce720")
 		(effects
 			(font
 				(size 1 1)
@@ -45,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "23ed7227-2a0b-4599-a485-1700acb8835a")
+		(uuid "64c5b76f-d5bb-449a-a7a8-67916495679c")
 		(effects
 			(font
 				(size 1 1)
@@ -59,7 +59,7 @@
 		(at 0 2.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "62883faa-3331-4818-86f7-69150cd48308")
+		(uuid "ef5e275e-61c7-45bd-acb9-81b5a5d1f0f7")
 		(effects
 			(font
 				(size 1 1)
@@ -68,32 +68,32 @@
 		)
 	)
 	(pad "" np_thru_hole circle
-		(at -21.2 -21.8)
+		(at -21.8 -21.8)
 		(size 5 5)
 		(drill 3)
 		(layers "*.Cu" "*.Mask")
-		(uuid "5ee96505-163c-4e55-b88f-6806ce3b4265")
+		(uuid "9447d938-c12d-4ee1-a6bb-4d49df1d53ec")
 	)
 	(pad "" np_thru_hole circle
-		(at -21.2 21.8)
+		(at -21.8 21.8)
 		(size 5 5)
 		(drill 3)
 		(layers "*.Cu" "*.Mask")
-		(uuid "aa7ca30d-8afd-4133-bc84-f025ac870d46")
+		(uuid "e8317dfa-f8bc-443d-b900-4dff2e9e2c13")
 	)
 	(pad "" np_thru_hole circle
-		(at 20.55 -21.8)
+		(at 21.8 -21.8)
 		(size 5 5)
 		(drill 3)
 		(layers "*.Cu" "*.Mask")
-		(uuid "422c7c59-2781-4953-9d7e-db90b7ea4b59")
+		(uuid "c5db0869-70b8-4399-b6dc-52f842eb8bac")
 	)
 	(pad "" np_thru_hole circle
-		(at 20.55 21.8)
+		(at 21.8 21.8)
 		(size 5 5)
 		(drill 3)
 		(layers "*.Cu" "*.Mask")
-		(uuid "33f9b6dd-f295-4326-b2c1-cca0fa23580a")
+		(uuid "89904b5b-50cb-4c51-b594-f6acf7e151b6")
 	)
 	(zone
 		(layers "F.Cu" "B.Cu" "In1.Cu" "F.SilkS" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu"
@@ -102,7 +102,7 @@
 			"In21.Cu" "In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu"
 			"In28.Cu" "In29.Cu" "In30.Cu"
 		)
-		(uuid "1d91f579-044c-47b6-88f1-cb0086e334df")
+		(uuid "aa17205e-912a-4f58-8788-50534e7c029b")
 		(hatch edge 0.5)
 		(connect_pads
 			(clearance 0)
